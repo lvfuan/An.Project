@@ -1,0 +1,72 @@
+﻿@using helpyou.net.cn.DB.Models
+@model List<MenuModel>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="header" id="top">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand scroll-top"><img src="~/images/logo.png" alt="Layer Template">Help You</a>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        @if (Model != null)
+                        {
+                            foreach (var menu1 in Model.Where(x => x.Level == 0).ToList())
+                            {
+                                var menuList2 = Model.Where(x => x.Level == 1 && x.ParentUrl.Contains(menu1.ParentUrl)).ToList();
+                                <li>
+                                    <a>@menu1.Name</a>
+                                    @if (menuList2.Count > 0)
+                                    {
+                                        <ul class="sub-menu">
+                                            @foreach (var menu2 in menuList2)
+                                            {
+                                                <li>
+                                                    <a href="#">@menu2.Name</a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    }
+                                </li>
+                            }
+
+                        }
+                        @*<li><a href="index.html">Home</a></li>
+                            <li>
+                                <a href="#">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="left_sidebar.html">Left Sidebar</a></li>
+                                    <li><a href="right_sidebar.html">Right Sidebar</a></li>
+                                    <li><a href="without_sidebar.html">Without Sidebar</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="columns.html">Columns</a></li>*@
+
+                        <li><a href="#"><span>登录</span></a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </div>
+            <!--/.container-->
+        </nav>
+        <!--/.navbar-->
+    </div>
+
+</body>
+</html>

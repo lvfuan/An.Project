@@ -1,0 +1,116 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+  a:hover{
+      text-decoration:none;
+      color:red;
+  }
+ul, li {
+    list-style: none;
+}
+
+/*#maskLayer {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.3;
+    -moz-opacity: 0.3;
+    filter: alpha(opacity=30);
+}*/
+#bodyStyle {
+    height: 100%;
+    background: url("../images/bg3.jpg");
+    /*background-color:black;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+button:hover {
+    background-color: red;
+}
+
+/*.ul_content {
+    position: relative;
+    left: 800px;
+    top: 200px;
+    width: 400px;
+    height: 300px;
+}*/
+
+.text {
+    outline: none;
+    height: 40px;
+    width: 300px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color:black;
+    opacity: 0.3;
+    -moz-opacity: 0.3;
+    filter: alpha(opacity=30);
+    color:white;
+}
+.text:hover{
+    border:2px solid  red;
+}
+
+button {
+    outline: none;
+    height: 40px;
+    width: 300px;    
+    background-color:#8ea2fe;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#content ul li {
+    margin-bottom: 20px;
+}
+#content ul:last-child {
+    margin-top: 5px;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    text-align: center;
+    color: white;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-align: center;
+    color: white;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-align: center;
+    color: white;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-align: center;
+    color: white;
+}
+.top_btn{
+
+}
+.top_bg {
+    width: 100%;
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    /*background-color:#222121*/
+}
+#content {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    width: 400px;
+    height: 300px;
+}

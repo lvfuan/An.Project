@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{489BB790-226C-4FAD-8D1E-51D72A7FF8E5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SqlSugar</RootNamespace>
+    <AssemblyName>SqlSugar</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.102.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\CodeFirstProvider\CodeFirstProvider.cs" />
+    <Compile Include="Abstract\AdoProvider\AdoAccessory.cs" />
+    <Compile Include="Abstract\DbBindProvider\DbBindAccessory.cs" />
+    <Compile Include="Abstract\DbBindProvider\DbBindProvider.cs" />
+    <Compile Include="Abstract\DbBindProvider\IDataReaderEntityBuilder.cs" />
+    <Compile Include="Abstract\DbBindProvider\IDataRecordExtensions.cs" />
+    <Compile Include="Abstract\DbFirstProvider\DbFirstProvider.cs" />
+    <Compile Include="Abstract\DbFirstProvider\DbFirstTemplate.cs" />
+    <Compile Include="Abstract\DbMaintenanceProvider\Methods.cs" />
+    <Compile Include="Abstract\DbMaintenanceProvider\Properties.cs" />
+    <Compile Include="Abstract\AdoProvider\AdoProvider.cs" />
+    <Compile Include="Abstract\EntityProvider\EntityProvider.cs" />
+    <Compile Include="Abstract\FilterProvider\FilterProvider.cs" />
+    <Compile Include="Abstract\InsertableProvider\InsertableProvider.cs" />
+    <Compile Include="Abstract\DeleteProvider\DeleteableProvider.cs" />
+    <Compile Include="CompatibleNetCore\CompatibleExtensions.cs" />
+    <Compile Include="Realization\MySql\CodeFirst\MySqlCodeFirst.cs" />
+    <Compile Include="Realization\MySql\DbFirst\MySqlDbFirst.cs" />
+    <Compile Include="Realization\MySql\DbMaintenance\MySqlDbMaintenance.cs" />
+    <Compile Include="Realization\Oracle\CodeFirst\OracleCodeFirst.cs" />
+    <Compile Include="Realization\Oracle\DbBind\OracleDbBind.cs" />
+    <Compile Include="Realization\Oracle\DbFirst\OracleDbFirst.cs" />
+    <Compile Include="Realization\Oracle\DbMaintenance\OracleDbMaintenance.cs" />
+    <Compile Include="Realization\Oracle\OracleProvider.cs" />
+    <Compile Include="Realization\Oracle\Queryable\OracleQueryable.cs" />
+    <Compile Include="Realization\Oracle\SqlBuilder\OracleBuilder.cs" />
+    <Compile Include="Realization\Oracle\SqlBuilder\OracleDeleteBuilder.cs" />
+    <Compile Include="Realization\Oracle\SqlBuilder\OracleExpressionContext.cs" />
+    <Compile Include="Realization\Oracle\SqlBuilder\OracleInsertBuilder.cs" />
+    <Compile Include="Realization\Oracle\SqlBuilder\OracleQueryBuilder.cs" />
+    <Compile Include="Realization\Oracle\SqlBuilder\OracleUpdateBuilder.cs" />
+    <Compile Include="Realization\Sqlite\CodeFirst\SqliteCodeFirst.cs" />
+    <Compile Include="Realization\Sqlite\DbBind\SqliteDbBind.cs" />
+    <Compile Include="Realization\Sqlite\DbFirst\SqliteDbFirst.cs" />
+    <Compile Include="Realization\Sqlite\DbMaintenance\SqliteDbMaintenance.cs" />
+    <Compile Include="Realization\Sqlite\SqliteProvider.cs" />
+    <Compile Include="Realization\Sqlite\Queryable\SqliteQueryable.cs" />
+    <Compile Include="Realization\Sqlite\SqlBuilder\SqliteBuilder.cs" />
+    <Compile Include="Realization\Sqlite\SqlBuilder\SqliteDeleteBuilder.cs" />
+    <Compile Include="Realization\Sqlite\SqlBuilder\SqliteExpressionContext.cs" />
+    <Compile Include="Realization\Sqlite\SqlBuilder\SqliteInsertBuilder.cs" />
+    <Compile Include="Realization\Sqlite\SqlBuilder\SqliteQueryBuilder.cs" />
+    <Compile Include="Realization\Sqlite\SqlBuilder\SqliteUpdateBuilder.cs" />
+    <Compile Include="SimpleClient.cs" />
+    <Compile Include="Abstract\UpdateProvider\UpdateableProvider.cs" />
+    <Compile Include="Entities\ModelContext.cs" />
+    <Compile Include="Entities\SchemaInfo.cs" />
+    <Compile Include="Entities\SqlFilter.cs" />
+    <Compile Include="Enum\DbObjectType.cs" />
+    <Compile Include="Enum\ProperyType.cs" />
+    <Compile Include="Common\FileHelper.cs" />
+    <Compile Include="Interface\ICacheManager.cs" />
+    <Compile Include="Entities\DbResult.cs" />
+    <Compile Include="Enum\InitKeyType.cs" />
+    <Compile Include="Interface\IFilter.cs" />
+    <Compile Include="Entities\DbType.cs" />
+    <Compile Include="Realization\MySql\DbBind\MySqlDbBind.cs" />
+    <Compile Include="Realization\MySql\SqlBuilder\MySqlBuilder.cs" />
+    <Compile Include="Realization\MySql\SqlBuilder\MySqlDeleteBuilder.cs" />
+    <Compile Include="Realization\MySql\SqlBuilder\MySqlExpressionContext.cs" />
+    <Compile Include="Realization\MySql\SqlBuilder\MySqlInsertBuilder.cs" />
+    <Compile Include="Realization\MySql\SqlBuilder\MySqlQueryBuilder.cs" />
+    <Compile Include="Realization\MySql\SqlBuilder\MySqlUpdateBuilder.cs" />
+    <Compile Include="Realization\MySql\Queryable\MySqlQueryable.cs" />
+    <Compile Include="Realization\SqlServer\SqlBuilder\SqlServerDeleteBuilder.cs" />
+    <Compile Include="Realization\SqlServer\SqlBuilder\SqlServerInsertBuilder.cs" />
+    <Compile Include="Entities\EntityColumnInfo.cs" />
+    <Compile Include="Entities\EntityInfo.cs" />
+    <Compile Include="Entities\Mapping\SugarMappingAttribute.cs" />
+    <Compile Include="Abstract\QueryableProvider\QueryableAccessory.cs" />
+    <Compile Include="Abstract\QueryableProvider\QueryableProvider.cs" />
+    <Compile Include="Abstract\SqlBuilderProvider\DeleteBuilder.cs" />
+    <Compile Include="Abstract\SqlBuilderProvider\InsertBuilder.cs" />
+    <Compile Include="Abstract\SqlBuilderProvider\QueryBuilder.cs" />
+    <Compile Include="Abstract\SqlBuilderProvider\SqlQueryBuilder.cs" />
+    <Compile Include="Abstract\SqlBuilderProvider\UpdateBuilder.cs" />
+    <Compile Include="Abstract\SqlBuilderProvider\SqlBuilderAccessory.cs" />
+    <Compile Include="Abstract\SqlBuilderProvider\SqlBuilderProvider.cs" />
+    <Compile Include="Common\CacheManager.cs" />
+    <Compile Include="Common\Check.cs" />
+    <Compile Include="Common\DbExtensions.cs" />
+    <Compile Include="Common\ErrorMessage.cs" />
+    <Compile Include="Common\IsWhatExtensions.cs" />
+    <Compile Include="Common\PubConst.cs" />
+    <Compile Include="Common\PubConvert.cs" />
+    <Compile Include="Common\PubMethod.cs" />
+    <Compile Include="Common\SqlException.cs" />
+    <Compile Include="Common\RewritableMethods.cs" />
+    <Compile Include="Realization\SqlServer\CodeFirst\SqlServerCodeFirst.cs" />
+    <Compile Include="Realization\SqlServer\SqlBuilder\SqlServerUpdateBuilder.cs" />
+    <Compile Include="Realization\SqlServer\DbBind\SqlServerDbBind.cs" />
+    <Compile Include="Realization\SqlServer\DbFirst\SqlServerDbFirst.cs" />
+    <Compile Include="Realization\SqlServer\SqlBuilder\SqlServerBuilder.cs" />
+    <Compile Include="Realization\SqlServer\DbMaintenance\SqlServerDbMaintenance.cs" />
+    <Compile Include="Realization\SqlServer\SqlBuilder\SqlServerQueryBuilder.cs" />
+    <Compile Include="Realization\MySql\MySqlProvider.cs" />
+    <Compile Include="Realization\SqlServer\SqlServerProvider.cs" />
+    <Compile Include="Realization\SqlServer\Queryable\SqlServerQueryable.cs" />
+    <Compile Include="Entities\ConnectionConfig.cs" />
+    <Compile Include="Entities\DbColumnInfo.cs" />
+    <Compile Include="Entities\DbTableInfo.cs" />
+    <Compile Include="Entities\Mapping\IgnoreComumn.cs" />
+    <Compile Include="Entities\SqlWith.cs" />
+    <Compile Include="ExpressionsToSql\Common\CommonTempDataType.cs" />
+    <Compile Include="ExpressionsToSql\Common\DateType.cs" />
+    <Compile Include="ExpressionsToSql\Common\MethodCallExpressionModel.cs" />
+    <Compile Include="ExpressionsToSql\Method\DefaultDbMethod.cs" />
+    <Compile Include="Realization\SqlServer\SqlBuilder\SqlServerExpressionContext.cs" />
+    <Compile Include="ExpressionsToSql\Method\SqlFunc.cs" />
+    <Compile Include="ExpressionsToSql\Common\BinaryExpressionInfo.cs" />
+    <Compile Include="ExpressionsToSql\Common\ExpressionResult.cs" />
+    <Compile Include="ExpressionsToSql\Common\ExpressionErrorMessage.cs" />
+    <Compile Include="ExpressionsToSql\Common\ExpressionResultAcceptType.cs" />
+    <Compile Include="ExpressionsToSql\Method\IDbMethods.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\MemberConstExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\MemberInitExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\MemberNewExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\MemberNoExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\Common\SugarParameter.cs" />
+    <Compile Include="ExpressionsToSql\Common\ExpressionParameter.cs" />
+    <Compile Include="Entities\JoinQueryInfo.cs" />
+    <Compile Include="Entities\Mapping\MappingColumn.cs" />
+    <Compile Include="Entities\Mapping\MappingTable.cs" />
+    <Compile Include="Entities\PageModel.cs" />
+    <Compile Include="Entities\SugarList.cs" />
+    <Compile Include="Enum\ApplyType.cs" />
+    <Compile Include="Enum\JoinType.cs" />
+    <Compile Include="Enum\OrderByType.cs" />
+    <Compile Include="ExpressionsToSql\Common\ResolveExpressType.cs" />
+    <Compile Include="ExpressionsToSql\Common\ExpressionConst.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\BaseResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\BinaryExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\BlockExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\ConditionalExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\ConstantExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\LambdaExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\MemberExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\MethodCallExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\NewArrayExpessionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\NewExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\TypeParameterExpressionReolve.cs" />
+    <Compile Include="ExpressionsToSql\ResolveItems\UnaryExpressionResolve.cs" />
+    <Compile Include="ExpressionsToSql\Common\ExpResolveAccessory.cs" />
+    <Compile Include="ExpressionsToSql\ExpressionContext.cs" />
+    <Compile Include="ExpressionsToSql\Common\ExpressionTool.cs" />
+    <Compile Include="InstanceFactory.cs" />
+    <Compile Include="Interface\ICodeFirst.cs" />
+    <Compile Include="Interface\IAdo.cs" />
+    <Compile Include="Interface\IDbBind.cs" />
+    <Compile Include="Interface\IDbFirst.cs" />
+    <Compile Include="Interface\IDbMaintenance.cs" />
+    <Compile Include="Interface\IDeleteable.cs" />
+    <Compile Include="Interface\ILambdaExpressions.cs" />
+    <Compile Include="Interface\Insertable.cs" />
+    <Compile Include="Interface\IQueryable.cs" />
+    <Compile Include="Interface\IDMLBuilder.cs" />
+    <Compile Include="Interface\ISqlBuilder.cs" />
+    <Compile Include="Interface\IRewritableMethods.cs" />
+    <Compile Include="Interface\IUpdateable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlSugarAccessory.cs" />
+    <Compile Include="SqlSugarClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="References\MySql.Data.dll" />
+    <Content Include="References\Newtonsoft.Json.dll" />
+    <Content Include="References\Oracle.ManagedDataAccess.dll" />
+    <Content Include="References\System.Data.SQLite.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SqlSugar.nuspec" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

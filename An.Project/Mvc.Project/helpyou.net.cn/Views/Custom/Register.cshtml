@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/css/Register.css" rel="stylesheet" />
+</head>
+<body id=bodyStyle>
+    <div id="maskLayer"><div class="top_bg"><i class="glyphicon glyphicon-share-alt" style="color:red"></i><a href="javascript:;" onclick="a_Switch()" class="top_a">使用手机注册</a></div> </div>
+    <div id="content">
+        <ul>
+            <li><img src="~/Content/images/logo3.png" style="width:500px;margin-bottom:30px;margin-left:-15px" /></li>
+            <li id="login"><input type="text" class="text" id="email" placeholder="请 输 入 邮 箱"><span style="color:red;font-style:italic"></span></li>
+            <li><input type="password" class="text" id="pw1" placeholder="请 输 入 密 码"><span style="color:red;font-style:italic"></span></li>
+            <li><input type="password" class="text" id="pw2" placeholder="再 次 输 入 密 码"><span style="color:red;font-style:italic"></span></li>
+            <li><p><button type="button" id='submit'><span>注 册</span></button></p><button type="button" id='cancel'><span>取 消</span></button></li>
+            <li></li>
+        </ul>
+    </div>
+    <script src="~/Content/js/jquery-1.11.3.min.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <script src="~/Content/js/Register.js"></script>
+</body>
+</html>
+
