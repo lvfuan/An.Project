@@ -1,0 +1,9 @@
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\HelpYou.Component.Service.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\HelpYou.Component.Service.pdb
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\Framework.Dapper.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\HelpYou.Component.Interface.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\Framework.Dapper.pdb
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\HelpYou.Component.Interface.pdb
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\obj\Debug\HelpYou.Component.Service.csprojResolveAssemblyReference.cache
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\obj\Debug\HelpYou.Component.Service.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\obj\Debug\HelpYou.Component.Service.pdb

@@ -16,7 +16,7 @@ namespace helpyou.net.cn
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Custom", action = "SignIn", id = UrlParameter.Optional }
+                defaults: new { controller = "webpublic", action = "index", id = UrlParameter.Optional }
             );
         }
     }

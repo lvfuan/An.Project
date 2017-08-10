@@ -18,3 +18,7 @@ G:\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.pdb
 G:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csprojResolveAssemblyReference.cache
 G:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.dll
 G:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.pdb
+D:\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.dll
+D:\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.pdb
+D:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.dll
+D:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.pdb

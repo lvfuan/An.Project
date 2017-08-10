@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helpyou.net.cn", "Mvc.Project\helpyou.net.cn\helpyou.net.cn.csproj", "{E1303E31-13FE-4585-AFF1-ED381828E010}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpYou.Net.CN", "Mvc.Project\helpyou.net.cn\HelpYou.Net.CN.csproj", "{E1303E31-13FE-4585-AFF1-ED381828E010}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mvc.Project", "Mvc.Project", "{9D1AC88B-7793-406C-8A2F-0BD67462A491}"
 EndProject
@@ -41,7 +41,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServerTest", "Framework.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlSugar", "Framework.SqlSuger\Asp.NetCore\SqlSugar\SqlSugar.csproj", "{ADFBE756-C4CE-4950-B699-561C396B4D50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helpyou.manage.com", "Mvc.Project\helpyou.manage.com\helpyou.manage.com.csproj", "{F8730EFA-7468-4CBF-9A41-BDA9920302BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpYou.Manage.COM", "Mvc.Project\helpyou.manage.com\HelpYou.Manage.COM.csproj", "{F8730EFA-7468-4CBF-9A41-BDA9920302BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpYou.Component.Interface", "Mvc.Project\HelpYou.Component.Interface\HelpYou.Component.Interface.csproj", "{C988F7A6-891F-46A3-A52E-6169887BDE8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpYou.Component.Service", "Mvc.Project\HelpYou.Component.Service\HelpYou.Component.Service.csproj", "{D971F5FF-1F68-43C4-85A3-5320D0452C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpYou.Component.Controllers", "Mvc.Project\HelpYou.Component.Controllers\HelpYou.Component.Controllers.csproj", "{39552396-529B-484D-8AC1-73A0C47261D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +107,18 @@ Global
 		{F8730EFA-7468-4CBF-9A41-BDA9920302BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8730EFA-7468-4CBF-9A41-BDA9920302BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8730EFA-7468-4CBF-9A41-BDA9920302BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C988F7A6-891F-46A3-A52E-6169887BDE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C988F7A6-891F-46A3-A52E-6169887BDE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C988F7A6-891F-46A3-A52E-6169887BDE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C988F7A6-891F-46A3-A52E-6169887BDE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D971F5FF-1F68-43C4-85A3-5320D0452C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D971F5FF-1F68-43C4-85A3-5320D0452C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D971F5FF-1F68-43C4-85A3-5320D0452C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D971F5FF-1F68-43C4-85A3-5320D0452C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39552396-529B-484D-8AC1-73A0C47261D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39552396-529B-484D-8AC1-73A0C47261D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39552396-529B-484D-8AC1-73A0C47261D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39552396-529B-484D-8AC1-73A0C47261D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,5 +139,8 @@ Global
 		{C9768FE5-8C69-4E8A-8458-C9761A1D1139} = {85A05099-3222-49DC-A65A-C96190EA95D7}
 		{ADFBE756-C4CE-4950-B699-561C396B4D50} = {85A05099-3222-49DC-A65A-C96190EA95D7}
 		{F8730EFA-7468-4CBF-9A41-BDA9920302BA} = {9D1AC88B-7793-406C-8A2F-0BD67462A491}
+		{C988F7A6-891F-46A3-A52E-6169887BDE8D} = {9D1AC88B-7793-406C-8A2F-0BD67462A491}
+		{D971F5FF-1F68-43C4-85A3-5320D0452C09} = {9D1AC88B-7793-406C-8A2F-0BD67462A491}
+		{39552396-529B-484D-8AC1-73A0C47261D1} = {9D1AC88B-7793-406C-8A2F-0BD67462A491}
 	EndGlobalSection
 EndGlobal

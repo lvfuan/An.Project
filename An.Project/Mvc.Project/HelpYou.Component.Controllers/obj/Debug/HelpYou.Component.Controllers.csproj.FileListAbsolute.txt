@@ -1,0 +1,8 @@
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\obj\Debug\HelpYou.Component.Controllers.csprojResolveAssemblyReference.cache
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\HelpYou.Component.Controllers.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\HelpYou.Component.Controllers.pdb
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\Helper.Common.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\System.Web.Mvc.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\Helper.Common.pdb
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\obj\Debug\HelpYou.Component.Controllers.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\obj\Debug\HelpYou.Component.Controllers.pdb

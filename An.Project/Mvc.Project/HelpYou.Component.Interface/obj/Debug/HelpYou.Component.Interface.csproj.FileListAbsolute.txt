@@ -1,0 +1,5 @@
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\HelpYou.Component.Interface.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\HelpYou.Component.Interface.pdb
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.pdb
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.csprojResolveAssemblyReference.cache

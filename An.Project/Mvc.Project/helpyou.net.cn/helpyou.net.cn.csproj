@@ -12,8 +12,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>helpyou.net.cn</RootNamespace>
-    <AssemblyName>helpyou.net.cn</AssemblyName>
+    <RootNamespace>HelpYou.Net.CN</RootNamespace>
+    <AssemblyName>HelpYou.Net.CN</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -234,26 +234,16 @@
     <Content Include="Content\plug\layui\lay\modules\upload.js" />
     <Content Include="Content\plug\layui\lay\modules\util.js" />
     <Content Include="Global.asax" />
-    <None Include="Views\Home\Index.cshtml" />
-    <None Include="Views\Home\about.cshtml" />
-    <None Include="Views\Home\article.cshtml" />
-    <None Include="Views\Home\detail.cshtml" />
-    <None Include="Views\Home\resource.cshtml" />
-    <None Include="Views\Home\timeline.cshtml" />
+    <None Include="Views\WebPublic\Index.cshtml" />
+    <None Include="Views\WebPublic\about.cshtml" />
+    <None Include="Views\WebPublic\article.cshtml" />
+    <None Include="Views\WebPublic\detail.cshtml" />
+    <None Include="Views\WebPublic\resource.cshtml" />
+    <None Include="Views\WebPublic\timeline.cshtml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="DB\Interface\ICustom.cs" />
-    <Compile Include="DB\Interface\IHelpYou.cs" />
-    <Compile Include="DB\Interface\IMenu.cs" />
-    <Compile Include="DB\Models\BaseModel.cs" />
-    <Compile Include="DB\Models\CustomModel.cs" />
-    <Compile Include="DB\Models\MenuModel.cs" />
-    <Compile Include="DB\Server\CustomServer.cs" />
-    <Compile Include="DB\Server\HelpYouServer.cs" />
-    <Compile Include="DB\Server\MenuServer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -307,7 +297,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Framework.Dapper\Framework.Dapper.csproj">
@@ -317,6 +306,10 @@
     <ProjectReference Include="..\..\Module.Common\Helper.Common.csproj">
       <Project>{a3f3db50-f531-4919-a58e-633a4d515492}</Project>
       <Name>Helper.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelpYou.Component.Controllers\HelpYou.Component.Controllers.csproj">
+      <Project>{39552396-529b-484d-8ac1-73a0c47261d1}</Project>
+      <Name>HelpYou.Component.Controllers</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
