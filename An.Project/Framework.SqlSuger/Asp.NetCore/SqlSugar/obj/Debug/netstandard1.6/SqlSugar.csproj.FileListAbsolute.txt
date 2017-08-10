@@ -4,3 +4,4 @@ G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\bin\Debug\netst
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.AssemblyInfo.cs
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.dll
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.pdb
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.csprojResolveAssemblyReference.cache

@@ -15,3 +15,4 @@ G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\bin\Debug\Oracle.Ma
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\bin\Debug\System.Data.SQLite.dll
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\obj\Debug\SqlSugar.dll
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\obj\Debug\SqlSugar.pdb
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\obj\Debug\SqlSugar.csprojResolveAssemblyReference.cache

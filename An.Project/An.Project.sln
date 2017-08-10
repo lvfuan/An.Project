@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlServerTest", "Framework.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlSugar", "Framework.SqlSuger\Asp.NetCore\SqlSugar\SqlSugar.csproj", "{ADFBE756-C4CE-4950-B699-561C396B4D50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helpyou.manage.com", "Mvc.Project\helpyou.manage.com\helpyou.manage.com.csproj", "{F8730EFA-7468-4CBF-9A41-BDA9920302BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{ADFBE756-C4CE-4950-B699-561C396B4D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADFBE756-C4CE-4950-B699-561C396B4D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADFBE756-C4CE-4950-B699-561C396B4D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8730EFA-7468-4CBF-9A41-BDA9920302BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8730EFA-7468-4CBF-9A41-BDA9920302BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8730EFA-7468-4CBF-9A41-BDA9920302BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8730EFA-7468-4CBF-9A41-BDA9920302BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,5 +120,6 @@ Global
 		{40F94FE2-AB43-4D1B-AE38-94DE78A3B7C3} = {85A05099-3222-49DC-A65A-C96190EA95D7}
 		{C9768FE5-8C69-4E8A-8458-C9761A1D1139} = {85A05099-3222-49DC-A65A-C96190EA95D7}
 		{ADFBE756-C4CE-4950-B699-561C396B4D50} = {85A05099-3222-49DC-A65A-C96190EA95D7}
+		{F8730EFA-7468-4CBF-9A41-BDA9920302BA} = {9D1AC88B-7793-406C-8A2F-0BD67462A491}
 	EndGlobalSection
 EndGlobal

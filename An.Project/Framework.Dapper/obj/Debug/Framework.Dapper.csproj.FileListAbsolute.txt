@@ -17,3 +17,4 @@ G:\An.Project\An.Project\Framework.Dapper\bin\Debug\Framework.Dapper.dll
 G:\An.Project\An.Project\Framework.Dapper\bin\Debug\Framework.Dapper.pdb
 G:\An.Project\An.Project\Framework.Dapper\obj\Debug\Framework.Dapper.dll
 G:\An.Project\An.Project\Framework.Dapper\obj\Debug\Framework.Dapper.pdb
+G:\An.Project\An.Project\Framework.Dapper\obj\Debug\Framework.Dapper.csprojResolveAssemblyReference.cache
