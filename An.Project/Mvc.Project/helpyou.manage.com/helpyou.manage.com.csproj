@@ -211,7 +211,7 @@
     <Content Include="Content\plugin\layui\lay\modules\upload.js" />
     <Content Include="Content\plugin\layui\lay\modules\util.js" />
     <Content Include="Global.asax" />
-    <None Include="Views\Home\index.cshtml" />
+    <None Include="Views\Home\signin.cshtml" />
     <None Include="Views\Home\main.cshtml" />
     <None Include="Views\PartView\datalist.cshtml" />
     <None Include="Views\PartView\login.cshtml" />

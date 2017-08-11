@@ -22,3 +22,9 @@ D:\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.dll
 D:\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.pdb
 D:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.dll
 D:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.pdb
+G:\An.Project\An.Project\Module.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\An.Project\An.Project\Module.Common\bin\Debug\NPOI.dll
+G:\An.Project\An.Project\Module.Common\bin\Debug\NPOI.OOXML.dll
+G:\An.Project\An.Project\Module.Common\bin\Debug\NPOI.OpenXml4Net.dll
+G:\An.Project\An.Project\Module.Common\bin\Debug\NPOI.OpenXmlFormats.dll
+G:\An.Project\An.Project\Module.Common\bin\Debug\NPOI.xml

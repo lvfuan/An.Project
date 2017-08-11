@@ -6,12 +6,12 @@ layui.define(['element', 'layer', 'form'], function (exports) {
     $("#submit").on("click", function () {
         var login = $("input[name=account]").val();
         var pwd = $("input[name= password]").val();
-        var yzm = $("input[name=yzm]").val();  
+        var yzm = $("input[name=yzm]").val();
         var param = { login: login, pwd: pwd, yzm: yzm }
         $.ajax({
             type: 'post',
-            url: 'home/index',
-            data:param,
+            url: 'home/signin',
+            data: param,
             beforeSend: function () {
                 if (login == "" || login == "undefined") {
                     layer.msg("账号不能为空"); return false;
@@ -21,10 +21,15 @@ layui.define(['element', 'layer', 'form'], function (exports) {
                 }
                 if (yzm == "" || yzm == "undefined") {
                     layer.msg("请输入验证码"); return false;
-                }               
+                }
             },
             success: function (res) {
-
+                if (res.Type > 0) {
+                    layer.msg(res.Message);
+                }
+                else {
+                    window.location.href = 'home/main';
+                }
             }
         })
     })
@@ -132,6 +137,6 @@ layui.define(['element', 'layer', 'form'], function (exports) {
         layui.form().render('checkbox');
     }
 
-    exports('index', {});
+    exports('signin', {});
 });
 

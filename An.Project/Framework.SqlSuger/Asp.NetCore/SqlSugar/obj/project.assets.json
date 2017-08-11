@@ -2163,7 +2163,7 @@
       ]
     },
     "Microsoft.Data.Sqlite/1.0.1": {
-      "sha512": "FGr9UFP5Gq/emOO7vxLCyhmNEjOs8Jj+sDqp/EPGjCPLmnzLzfE17xO9avCR2yP82GYAC/mC6r3Whdz6vXi+qA==",
+      "sha512": "1L1ndXFfk0IniEbpkZaG2Jyzokt9zZbWqD1MHellRFtIpaJy+vs+Wbfh313ai7TAoXP1oCxK3h3KzqCSMaIlEQ==",
       "type": "package",
       "path": "microsoft.data.sqlite/1.0.1",
       "files": [
@@ -2506,7 +2506,7 @@
       ]
     },
     "SQLite/3.13.0": {
-      "sha512": "GQ5gJF9esKVueVgj03jlq4oKScoJD0vjxHcdOqJiHRCeDlpLFtT05mE9di5LBSGnRi3MFHm39rCWUtldMbCJyQ==",
+      "sha512": "MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
       "type": "package",
       "path": "sqlite/3.13.0",
       "files": [
@@ -3055,7 +3055,7 @@
       ]
     },
     "System.Data.Common/4.1.0": {
-      "sha512": "z7TvXWi5G6+Q9WYBbmVxBu4nSg7E5a2pMdXQWj86j2lKsFwnosDS1UYoWvz7h6Ennu98DNUN1dmZcEj/ZyIZtA==",
+      "sha512": "epU8jeTe7aE7RqGHq9rZ8b0Q4Ah7DgubzHQblgZMSqgW1saW868WmooSyC5ywf8upLBkcVLDu93W9GPWUYsU2Q==",
       "type": "package",
       "path": "system.data.common/4.1.0",
       "files": [
@@ -6543,15 +6543,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj",
+      "projectUniqueName": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj",
       "projectName": "SqlSugar",
-      "projectPath": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj",
-      "outputPath": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\obj\\",
+      "projectPath": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj",
+      "outputPath": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"

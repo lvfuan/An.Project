@@ -1,0 +1,6 @@
+G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\UnitTestConsole.exe.config
+G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\UnitTestConsole.exe
+G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\UnitTestConsole.pdb
+G:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.exe
+G:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.pdb
+G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\EmitMapper.dll

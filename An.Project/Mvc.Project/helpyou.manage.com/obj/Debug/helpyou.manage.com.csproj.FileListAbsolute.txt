@@ -112,3 +112,17 @@ D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Co
 D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Controllers.pdb
 D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Autofac.xml
 D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Autofac.Integration.Mvc.xml
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Autofac.dll
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Autofac.Integration.Mvc.dll
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Helper.Common.dll
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Controllers.dll
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Helper.Common.pdb
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Controllers.pdb
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Autofac.xml
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Autofac.Integration.Mvc.xml
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.dll
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.OOXML.dll
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\ICSharpCode.SharpZipLib.dll
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.OpenXmlFormats.dll
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.OpenXml4Net.dll
+G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.xml

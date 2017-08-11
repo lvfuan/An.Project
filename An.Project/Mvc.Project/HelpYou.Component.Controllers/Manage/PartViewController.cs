@@ -12,7 +12,7 @@ namespace HelpYou.Component.Controllers.Manage
         public ActionResult GetValidateCode()
         {          
             string code = ValidateCode.CreateValidateCode(5);
-            Session["ValidateCode"] = code;
+            SessionHelper.Add("yzm", code);
             byte[] bytes = ValidateCode.CreateValidateGraphic(code);
             return File(bytes, @"image/jpeg");
         }
