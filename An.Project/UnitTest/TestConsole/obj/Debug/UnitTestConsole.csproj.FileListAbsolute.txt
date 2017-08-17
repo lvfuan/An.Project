@@ -4,3 +4,10 @@ G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\UnitTestConsole.pdb
 G:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.exe
 G:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.pdb
 G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\EmitMapper.dll
+D:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\UnitTestConsole.exe.config
+D:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\UnitTestConsole.exe
+D:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\UnitTestConsole.pdb
+D:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\EmitMapper.dll
+D:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.csprojResolveAssemblyReference.cache
+D:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.exe
+D:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.pdb

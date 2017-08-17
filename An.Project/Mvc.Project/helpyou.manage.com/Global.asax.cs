@@ -16,6 +16,7 @@ namespace helpyou.manage.com
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            AutofacRegister.ContainerBuilderRegister();
         }
     }
     public class AutofacRegister

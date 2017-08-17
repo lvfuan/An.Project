@@ -49,3 +49,16 @@ G:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Text.xml
 G:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.csprojResolveAssemblyReference.cache
 G:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.dll
 G:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.pdb
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\Cache.Redis.dll
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\Cache.Redis.pdb
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Common.dll
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Interfaces.dll
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Redis.dll
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Text.dll
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Common.xml
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Interfaces.xml
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Redis.xml
+D:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Text.xml
+D:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.csprojResolveAssemblyReference.cache
+D:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.dll
+D:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.pdb

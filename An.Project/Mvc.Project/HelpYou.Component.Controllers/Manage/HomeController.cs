@@ -1,19 +1,30 @@
 ﻿using Helper.Common;
+using HelpYou.Component.Interface.Interface;
 using System.Web.Mvc;
+using HelpYou.Component.Interface.Model;
+using System;
+using Newtonsoft.Json;
+using HelpYou.Component.Interface.Eum;
 
 namespace HelpYou.Component.Controllers.Manage
 {
     public class HomeController : Controller
     {
-        public HomeController() { }
+        private readonly IUser UserServer;
+        private readonly IMenu MenuServer;
+        public HomeController(IUser user, IMenu menu)
+        {
+            this.UserServer = user;
+            this.MenuServer = menu;
+        }
 
         #region   SignIn
         public ActionResult SignIn(string login, string pwd, string yzm)
         {
             if (Request.IsAjaxRequest())
             {
-                var b = SessionHelper.Get("yzm");
-                if (!b.Equals(yzm))
+                var yzmCookie = SessionHelper.Get("yzm");
+                if (!yzmCookie.Equals(yzm))
                 {
                     return Json(new ReturnResultOption(ReturnResultOptionType.Warning, "验证码不正确"));
                 }
@@ -36,10 +47,14 @@ namespace HelpYou.Component.Controllers.Manage
         /// <returns></returns>
         private bool CheckSignIn(string login, string pwd)
         {
-            if (login == "admin" && pwd == "888888")
+            var model = this.UserServer.Query(login);
+            if (model != null)
             {
-                CookieHelper.SetCookie("user", "admin");
-                return true;
+                if ((model.LoginId == login) && (model.LoginPwd == pwd))
+                {
+                    CookieHelper.SetCookie("user", JsonConvert.SerializeObject(model));
+                    return true;
+                }
             };
             return false;
         }
@@ -54,21 +69,37 @@ namespace HelpYou.Component.Controllers.Manage
         /// <param name="pwd2">第二次输入的密码</param>
         /// <param name="registerType">注册类型</param>
         /// <returns></returns>
-        public ActionResult Register(string login,string pwd1,string pwd2,string registerType)
+        public ActionResult Register(string login, string pwd1, string pwd2, EumRegisterType registerType)
         {
             if (Request.IsAjaxRequest())
             {
-
+                if (!pwd1.Equals(pwd2)) return Json(new ReturnResultOption(ReturnResultOptionType.ParamError, "两次密码不一致"));
+                UserModel model = new UserModel()
+                {
+                    LoginPwd = pwd1,
+                    CreateTime = DateTime.Now,
+                    State = true
+                };
+                switch (registerType)
+                {
+                    case EumRegisterType.Email:
+                        model.Email = login;
+                        this.UserServer.Insert(model);
+                        return Json(new ReturnResultOption(ReturnResultOptionType.Success, "注册成功"));
+                    case EumRegisterType.Mobile:
+                        model.Mobile = login;
+                        this.UserServer.Insert(model);
+                        return Json(new ReturnResultOption(ReturnResultOptionType.Success, "注册成功"));
+                    default:
+                        return Json(new ReturnResultOption(ReturnResultOptionType.Warning, "注册失败"));
+                }
             }
             return View();
-        }
-        private bool CkeckRegister()
-        {
-            return true;
-        }
+        }    
         #endregion
         public ActionResult Main()
         {
+            ViewBag.Menu = this.MenuServer.QuerList();
             return View();
         }
     }

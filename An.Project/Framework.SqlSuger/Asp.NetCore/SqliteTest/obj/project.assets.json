@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v1.0": {
       "Google.Protobuf/3.0.0": {
@@ -2658,6 +2658,12 @@
           "System.Dynamic.Runtime": "4.0.11",
           "System.Reflection.Emit.Lightweight": "4.0.1",
           "System.Runtime.Loader": "4.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SqlSugar.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SqlSugar.dll": {}
         }
       }
     }
@@ -2816,7 +2822,7 @@
       ]
     },
     "Microsoft.Data.Sqlite/1.0.1": {
-      "sha512": "1L1ndXFfk0IniEbpkZaG2Jyzokt9zZbWqD1MHellRFtIpaJy+vs+Wbfh313ai7TAoXP1oCxK3h3KzqCSMaIlEQ==",
+      "sha512": "FGr9UFP5Gq/emOO7vxLCyhmNEjOs8Jj+sDqp/EPGjCPLmnzLzfE17xO9avCR2yP82GYAC/mC6r3Whdz6vXi+qA==",
       "type": "package",
       "path": "microsoft.data.sqlite/1.0.1",
       "files": [
@@ -2925,7 +2931,7 @@
       ]
     },
     "Microsoft.NETCore.App/1.0.4": {
-      "sha512": "RG6hwo9ifKnbhPeNkp3X+oBE7EoImdRC2ntt+I3iLlhc5WV7DPg5/gNa6OH0qM3BbmRvfsgO0CNTjNU/hrIUbw==",
+      "sha512": "+ECK2zULEJLSVSaNR43kiWL1D714MsAYOOir0BGCohOKz0MsubdLVqOMZKnUf7c89na12T+GG+jMPAaDuL9seQ==",
       "type": "package",
       "path": "microsoft.netcore.app/1.0.4",
       "files": [
@@ -2949,7 +2955,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/1.0.3": {
-      "sha512": "emPcHCi96pF2Rqkmya+oqPKVhokXb1VE4ZwtsUNrW5Hn3/ClGJN7wOsi7xvuNurR1JGZd2hQFwDUUjJqW1cunA==",
+      "sha512": "kJrjbkdG5jvcihL43uZGArxvZzNZiuYvNP4iClNGE8+l+3GFtChnnG9U2YUi6uKpAzReopQzNduBKbpZLpSJIg==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/1.0.3",
       "files": [
@@ -2973,7 +2979,7 @@
       ]
     },
     "Microsoft.NETCore.Jit/1.0.6": {
-      "sha512": "jwa1SyM4DYR0PNSXoTW01e33WLeti1Ub3e29D8e9NoVjSbVTcfbLzgimQzN7YAo60xZv+nc7xVxPe5UjxNnBSg==",
+      "sha512": "3VUEyVt5Mct1pGvzbzbOb4vxiOj6UAd2c3wj5Bt5Z3v/fu5zNyG6ALzTZM6EB6ONNcbaRGAPX2KpKs5vKeV7cA==",
       "type": "package",
       "path": "microsoft.netcore.jit/1.0.6",
       "files": [
@@ -2998,7 +3004,7 @@
       ]
     },
     "Microsoft.NETCore.Runtime.CoreCLR/1.0.6": {
-      "sha512": "FQRXbnO3Y1YxxIbFtGtMWDShWT070GJtzOvSKY0z2ylP7njHSUVt5cI99Ij1eIWR0pVN3mrLLWpY1joJkDddQA==",
+      "sha512": "jP+WBErVbKnDzkLZRLzoYlyPViVG9Wl8RQ/qjZB5VrvX2s4YAYIdgL4KKOdx+jwCU7Pv+0N/ypvOK5Ui2O8TEQ==",
       "type": "package",
       "path": "microsoft.netcore.runtime.coreclr/1.0.6",
       "files": [
@@ -3286,7 +3292,7 @@
       ]
     },
     "SQLite/3.13.0": {
-      "sha512": "MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
+      "sha512": "GQ5gJF9esKVueVgj03jlq4oKScoJD0vjxHcdOqJiHRCeDlpLFtT05mE9di5LBSGnRi3MFHm39rCWUtldMbCJyQ==",
       "type": "package",
       "path": "sqlite/3.13.0",
       "files": [
@@ -3850,7 +3856,7 @@
       ]
     },
     "System.Data.Common/4.1.0": {
-      "sha512": "epU8jeTe7aE7RqGHq9rZ8b0Q4Ah7DgubzHQblgZMSqgW1saW868WmooSyC5ywf8upLBkcVLDu93W9GPWUYsU2Q==",
+      "sha512": "z7TvXWi5G6+Q9WYBbmVxBu4nSg7E5a2pMdXQWj86j2lKsFwnosDS1UYoWvz7h6Ennu98DNUN1dmZcEj/ZyIZtA==",
       "type": "package",
       "path": "system.data.common/4.1.0",
       "files": [
@@ -5267,7 +5273,7 @@
       ]
     },
     "System.Net.Http/4.1.1": {
-      "sha512": "UB6cBljFrgbAjIpwiP+vzEzL9LW7DsO6rRuPfpWaGtK6+obBdkkDOi/3WggHPRGwl9NRHlv4xnEmBrYfKSfq1Q==",
+      "sha512": "ouklyi8qXGf27MLwmx4uUvFH5SFrKh/LA0zZh7MT5NPVEwl/lejubXyMkOe6kEAn/KO3y9Uley66hY9OpLlb+w==",
       "type": "package",
       "path": "system.net.http/4.1.1",
       "files": [
@@ -7920,27 +7926,47 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqliteTest\\SqliteTest.csproj",
+      "projectUniqueName": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqliteTest\\SqliteTest.csproj",
       "projectName": "SqliteTest",
-      "projectPath": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqliteTest\\SqliteTest.csproj",
-      "outputPath": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqliteTest\\obj\\",
+      "projectPath": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqliteTest\\SqliteTest.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqliteTest\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp1.0"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "http://go.microsoft.com/fwlink/?LinkID=206669": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {
-            "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj": {
-              "projectPath": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj"
+            "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj": {
+              "projectPath": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj"
             }
           }
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {

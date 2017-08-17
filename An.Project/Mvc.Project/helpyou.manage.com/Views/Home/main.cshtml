@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@using HelpYou.Component.Interface.Model;
+@using System.Linq;
+@{
+    var menuList = ViewBag.Menu as List<MenuModel>;
+}
+
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -44,50 +50,73 @@
                     <li class="layui-nav-item layui-this">
                         <a href="javascript:;"><i class="fa fa-home"></i>首页</a>
                     </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;"><i class="fa fa-file-text"></i>内容管理</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" data-url="datalist.html" data-id="1">文章管理</a></dd>
-                            <dd><a href="javascript:;" data-url="datalist.html" data-id="2">资源管理</a></dd>
-                            <dd><a href="javascript:;" data-url="datalist.html" data-id="3">时光轴管理</a></dd>
-                            <dd><a href="javascript:;">笔记本管理</a></dd>
-                            <dd><a href="javascript:;" data-url="datalist.html" data-id="4">文章回收站</a></dd>
-                            <dd><a href="javascript:;">资源回收站</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;"><i class="fa fa-user"></i>用户管理</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">全部用户</a></dd>
-                            <dd><a href="javascript:;">黑名单管理</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;"><i class="fa fa-wrench"></i>扩展管理</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">友情链接</a></dd>
-                            <dd><a href="javascript:;">博主信息</a></dd>
-                            <dd><a href="javascript:;">网站信息</a></dd>
-                            <dd><a href="javascript:;" data-url="datalist.html" data-id="5">网站公告</a></dd>
-                            <dd><a href="javascript:;" data-url="datalist.html" data-id="6">更新日志</a></dd>
-                            <dd><a href="javascript:;" data-url="datalist.html" data-id="7">留言管理</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;"><i class="fa fa-cog"></i>系统配置</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">SEO配置</a></dd>
-                            <dd><a href="javascript:;">QQ互联</a></dd>
-                            <dd><a href="javascript:;">数据库配置</a></dd>
-                            <dd><a href="javascript:;">站点地图</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;"><i class="fa fa-info-circle"></i>其他信息</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">操作日志</a></dd>
-                        </dl>
-                    </li>
+                    @if (menuList.Count > 0)
+                    {
+                        foreach (var level1 in menuList.Where(x => x.MenuLevel == 0).ToList())
+                        {
+                            var levels = menuList.Where(x => x.MenuLevel == 1 && x.MenuUrl.Contains(level1.MenuUrl));
+                            <li class="layui-nav-item">
+                                <a href="javascript:;"><i class="fa fa-file-text"></i>@level1.MenuName</a>
+                                @if (levels.Count() > 0)
+                                {
+                                    <dl class="layui-nav-child">
+                                        @foreach (var level2 in levels)
+                                        {
+                                            var i = 1;
+                                        <dd><a href="javascript:;" data-url="datalist.html" data-id="@i">@level2.MenuName</a></dd>
+                                            i++;
+                                        }
+                                    </dl>
+                                }
+                            </li>
+                        }
+
+                    }
+
+                    @*<li class="layui-nav-item">
+                            <a href="javascript:;"><i class="fa fa-file-text"></i>内容管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;" data-url="datalist.html" data-id="1">文章管理</a></dd>
+                                <dd><a href="javascript:;" data-url="datalist.html" data-id="2">资源管理</a></dd>
+                                <dd><a href="javascript:;" data-url="datalist.html" data-id="3">时光轴管理</a></dd>
+                                <dd><a href="javascript:;">笔记本管理</a></dd>
+                                <dd><a href="javascript:;" data-url="datalist.html" data-id="4">文章回收站</a></dd>
+                                <dd><a href="javascript:;">资源回收站</a></dd>
+                            </dl>
+                        </li>*@
+                    @*<li class="layui-nav-item">
+                            <a href="javascript:;"><i class="fa fa-user"></i>用户管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">全部用户</a></dd>
+                                <dd><a href="javascript:;">黑名单管理</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="fa fa-wrench"></i>扩展管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">友情链接</a></dd>
+                                <dd><a href="javascript:;">博主信息</a></dd>
+                                <dd><a href="javascript:;">网站信息</a></dd>
+                                <dd><a href="javascript:;" data-url="datalist.html" data-id="5">网站公告</a></dd>
+                                <dd><a href="javascript:;" data-url="datalist.html" data-id="6">更新日志</a></dd>
+                                <dd><a href="javascript:;" data-url="datalist.html" data-id="7">留言管理</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="fa fa-cog"></i>系统配置</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">SEO配置</a></dd>
+                                <dd><a href="javascript:;">QQ互联</a></dd>
+                                <dd><a href="javascript:;">数据库配置</a></dd>
+                                <dd><a href="javascript:;">站点地图</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;"><i class="fa fa-info-circle"></i>其他信息</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="javascript:;">操作日志</a></dd>
+                            </dl>
+                        </li>*@
                 </ul>
             </div>
         </div>

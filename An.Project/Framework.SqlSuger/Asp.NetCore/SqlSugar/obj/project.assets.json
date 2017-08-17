@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETStandard,Version=v1.6": {
       "Google.Protobuf/3.0.0": {
@@ -2163,7 +2163,7 @@
       ]
     },
     "Microsoft.Data.Sqlite/1.0.1": {
-      "sha512": "1L1ndXFfk0IniEbpkZaG2Jyzokt9zZbWqD1MHellRFtIpaJy+vs+Wbfh313ai7TAoXP1oCxK3h3KzqCSMaIlEQ==",
+      "sha512": "FGr9UFP5Gq/emOO7vxLCyhmNEjOs8Jj+sDqp/EPGjCPLmnzLzfE17xO9avCR2yP82GYAC/mC6r3Whdz6vXi+qA==",
       "type": "package",
       "path": "microsoft.data.sqlite/1.0.1",
       "files": [
@@ -2506,7 +2506,7 @@
       ]
     },
     "SQLite/3.13.0": {
-      "sha512": "MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
+      "sha512": "GQ5gJF9esKVueVgj03jlq4oKScoJD0vjxHcdOqJiHRCeDlpLFtT05mE9di5LBSGnRi3MFHm39rCWUtldMbCJyQ==",
       "type": "package",
       "path": "sqlite/3.13.0",
       "files": [
@@ -3055,7 +3055,7 @@
       ]
     },
     "System.Data.Common/4.1.0": {
-      "sha512": "epU8jeTe7aE7RqGHq9rZ8b0Q4Ah7DgubzHQblgZMSqgW1saW868WmooSyC5ywf8upLBkcVLDu93W9GPWUYsU2Q==",
+      "sha512": "z7TvXWi5G6+Q9WYBbmVxBu4nSg7E5a2pMdXQWj86j2lKsFwnosDS1UYoWvz7h6Ennu98DNUN1dmZcEj/ZyIZtA==",
       "type": "package",
       "path": "system.data.common/4.1.0",
       "files": [
@@ -6543,23 +6543,46 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj",
+      "projectUniqueName": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj",
       "projectName": "SqlSugar",
-      "projectPath": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj",
-      "outputPath": "G:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\obj\\",
+      "projectPath": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\SqlSugar.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "D:\\An.Project\\An.Project\\Framework.SqlSuger\\Asp.NetCore\\SqlSugar\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
       "originalTargetFrameworks": [
         "netstandard1.6"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://go.microsoft.com/fwlink/?LinkID=206669": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {

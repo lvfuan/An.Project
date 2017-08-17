@@ -9,3 +9,14 @@ G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\net
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.AssemblyInfo.cs
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.dll
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.pdb
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\bin\Debug\netcoreapp1.0\SqliteTest.deps.json
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\bin\Debug\netcoreapp1.0\SqliteTest.runtimeconfig.json
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\bin\Debug\netcoreapp1.0\SqliteTest.runtimeconfig.dev.json
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\bin\Debug\netcoreapp1.0\SqliteTest.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\bin\Debug\netcoreapp1.0\SqliteTest.pdb
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\bin\Debug\netcoreapp1.0\SqlSugar.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\bin\Debug\netcoreapp1.0\SqlSugar.pdb
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.csprojResolveAssemblyReference.cache
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.AssemblyInfo.cs
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.pdb

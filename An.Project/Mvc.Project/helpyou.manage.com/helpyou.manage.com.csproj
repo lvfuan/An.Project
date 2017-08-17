@@ -282,6 +282,10 @@
       <Project>{39552396-529b-484d-8ac1-73a0c47261d1}</Project>
       <Name>HelpYou.Component.Controllers</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HelpYou.Component.Service\HelpYou.Component.Service.csproj">
+      <Project>{d971f5ff-1f68-43c4-85a3-5320d0452c09}</Project>
+      <Name>HelpYou.Component.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

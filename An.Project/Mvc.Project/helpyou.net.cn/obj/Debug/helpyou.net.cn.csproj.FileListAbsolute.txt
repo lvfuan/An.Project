@@ -122,3 +122,15 @@ D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\zh-Hans\System.Web.Mvc.r
 D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\obj\Debug\helpyou.net.cn.csprojResolveAssemblyReference.cache
 D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\obj\Debug\HelpYou.Net.Cn.dll
 D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\obj\Debug\HelpYou.Net.Cn.pdb
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\NPOI.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\NPOI.OOXML.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\HelpYou.Component.Interface.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\ICSharpCode.SharpZipLib.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\NPOI.OpenXmlFormats.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\NPOI.OpenXml4Net.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\NPOI.xml
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\HelpYou.Component.Interface.pdb
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\Newtonsoft.Json.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\HelpYou.Component.Service.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\HelpYou.Component.Service.pdb
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\obj\Debug\HelpYou.Net.CN.csproj.CoreCompileInputs.cache

@@ -9,3 +9,14 @@ G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netc
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.AssemblyInfo.cs
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.dll
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.pdb
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\bin\Debug\netcoreapp1.0\MySqlTest.deps.json
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\bin\Debug\netcoreapp1.0\MySqlTest.runtimeconfig.json
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\bin\Debug\netcoreapp1.0\MySqlTest.runtimeconfig.dev.json
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\bin\Debug\netcoreapp1.0\MySqlTest.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\bin\Debug\netcoreapp1.0\MySqlTest.pdb
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\bin\Debug\netcoreapp1.0\SqlSugar.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\bin\Debug\netcoreapp1.0\SqlSugar.pdb
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.csprojResolveAssemblyReference.cache
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.AssemblyInfo.cs
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.pdb

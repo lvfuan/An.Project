@@ -126,3 +126,16 @@ G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\ICSharpCode.SharpZip
 G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.OpenXmlFormats.dll
 G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.OpenXml4Net.dll
 G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.xml
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.OOXML.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\ICSharpCode.SharpZipLib.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.OpenXmlFormats.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.OpenXml4Net.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\NPOI.xml
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Interface.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Interface.pdb
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Service.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Framework.Dapper.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Service.pdb
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Framework.Dapper.pdb
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Newtonsoft.Json.dll

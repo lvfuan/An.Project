@@ -1,0 +1,11 @@
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\bin\Debug\netcoreapp2.0\UnitTest.NetCore2.0.deps.json
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\bin\Debug\netcoreapp2.0\UnitTest.NetCore2.0.runtimeconfig.json
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\bin\Debug\netcoreapp2.0\UnitTest.NetCore2.0.runtimeconfig.dev.json
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\bin\Debug\netcoreapp2.0\UnitTest.NetCore2.0.dll
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\bin\Debug\netcoreapp2.0\UnitTest.NetCore2.0.pdb
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\obj\Debug\netcoreapp2.0\UnitTest.NetCore2.0.csprojResolveAssemblyReference.cache
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\obj\Debug\netcoreapp2.0\UnitTest.NetCore2.0.csproj.CoreCompileInputs.cache
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\obj\Debug\netcoreapp2.0\UnitTest.NetCore2.0.AssemblyInfoInputs.cache
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\obj\Debug\netcoreapp2.0\UnitTest.NetCore2.0.AssemblyInfo.cs
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\obj\Debug\netcoreapp2.0\UnitTest.NetCore2.0.dll
+D:\An.Project\An.Project\UnitTest\UnitTest.NetCore2.0\obj\Debug\netcoreapp2.0\UnitTest.NetCore2.0.pdb

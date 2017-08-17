@@ -7,3 +7,12 @@ D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\HelpYou
 D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\obj\Debug\HelpYou.Component.Service.csprojResolveAssemblyReference.cache
 D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\obj\Debug\HelpYou.Component.Service.dll
 D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\obj\Debug\HelpYou.Component.Service.pdb
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\Helper.Common.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\NPOI.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\NPOI.OOXML.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\NPOI.OpenXml4Net.dll
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\Helper.Common.pdb
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\bin\Debug\NPOI.xml
+D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Service\obj\Debug\HelpYou.Component.Service.csproj.CoreCompileInputs.cache

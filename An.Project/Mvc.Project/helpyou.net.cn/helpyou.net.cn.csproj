@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -115,6 +116,7 @@
     <Content Include="Content\images\cover\cover.jpg" />
     <Content Include="Content\images\cover\cover_default.jpg" />
     <Content Include="Content\images\handshake.png" />
+    <Content Include="Content\images\logo8.png" />
     <Content Include="Content\images\Logo_100.png" />
     <Content Include="Content\images\Logo_40.png" />
     <Content Include="Content\images\messagewall.png" />
@@ -126,6 +128,7 @@
     <Content Include="Content\js\detail.js" />
     <Content Include="Content\js\global.js" />
     <Content Include="Content\js\home.js" />
+    <Content Include="Content\js\jquery-1.8.3.min.js" />
     <Content Include="Content\js\prettify.js" />
     <Content Include="Content\plug\font-awesome\css\font-awesome.css" />
     <Content Include="Content\plug\font-awesome\css\font-awesome.min.css" />
@@ -234,6 +237,8 @@
     <Content Include="Content\plug\layui\lay\modules\upload.js" />
     <Content Include="Content\plug\layui\lay\modules\util.js" />
     <Content Include="Global.asax" />
+    <Content Include="Views\MasterView\Master.cshtml" />
+    <Content Include="Views\UserManager\Index.cshtml" />
     <None Include="Views\WebPublic\Index.cshtml" />
     <None Include="Views\WebPublic\about.cshtml" />
     <None Include="Views\WebPublic\article.cshtml" />
@@ -310,6 +315,14 @@
     <ProjectReference Include="..\HelpYou.Component.Controllers\HelpYou.Component.Controllers.csproj">
       <Project>{39552396-529b-484d-8ac1-73a0c47261d1}</Project>
       <Name>HelpYou.Component.Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelpYou.Component.Interface\HelpYou.Component.Interface.csproj">
+      <Project>{c988f7a6-891f-46a3-a52e-6169887bde8d}</Project>
+      <Name>HelpYou.Component.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelpYou.Component.Service\HelpYou.Component.Service.csproj">
+      <Project>{d971f5ff-1f68-43c4-85a3-5320d0452c09}</Project>
+      <Name>HelpYou.Component.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -41,16 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Web\Interface\ICustom.cs" />
-    <Compile Include="Web\Interface\IHelpYou.cs" />
-    <Compile Include="Web\Interface\IMenu.cs" />
-    <Compile Include="Model\BaseModel.cs" />
-    <Compile Include="Model\CustomModel.cs" />
+    <Compile Include="Eum\EumRegisterType.cs" />
+    <Compile Include="IBaseCommon.cs" />
+    <Compile Include="Interface\IBlog.cs" />
+    <Compile Include="Interface\IMenu.cs" />
+    <Compile Include="Interface\IUser.cs" />
+    <Compile Include="Model\BlogModel.cs" />
     <Compile Include="Model\MenuModel.cs" />
+    <Compile Include="Model\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Manage\" />
+    <ProjectReference Include="..\..\Module.Common\Helper.Common.csproj">
+      <Project>{a3f3db50-f531-4919-a58e-633a4d515492}</Project>
+      <Name>Helper.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

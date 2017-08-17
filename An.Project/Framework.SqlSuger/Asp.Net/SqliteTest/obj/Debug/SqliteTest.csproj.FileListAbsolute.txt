@@ -10,3 +10,15 @@ G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteT
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteTest.pdb
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\SqliteTest.exe
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\SqliteTest.pdb
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\SqliteTest.exe
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\SqliteTest.pdb
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\SqlSugar.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\SyntacticSugar.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\System.Data.SQLite.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\MySql.Data.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\Newtonsoft.Json.dll
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\bin\Debug\SqlSugar.pdb
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteTest.csprojResolveAssemblyReference.cache
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteTest.exe
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteTest.pdb

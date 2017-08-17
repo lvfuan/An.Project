@@ -41,18 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseCommon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Web\Service\CustomServer.cs" />
-    <Compile Include="Web\Service\HelpYouServer.cs" />
-    <Compile Include="Web\Service\MenuServer.cs" />
+    <Compile Include="Service\BlogServer.cs" />
+    <Compile Include="Service\MenuServer.cs" />
+    <Compile Include="Service\UserServer.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Manage\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\Framework.Dapper\Framework.Dapper.csproj">
       <Project>{1F682B84-D58A-4A70-ACF6-DD33835B21B7}</Project>
       <Name>Framework.Dapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Module.Common\Helper.Common.csproj">
+      <Project>{a3f3db50-f531-4919-a58e-633a4d515492}</Project>
+      <Name>Helper.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\HelpYou.Component.Interface\HelpYou.Component.Interface.csproj">
       <Project>{c988f7a6-891f-46a3-a52e-6169887bde8d}</Project>
