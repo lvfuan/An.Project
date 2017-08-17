@@ -14,5 +14,9 @@ namespace HelpYou.Component.Controllers.Web
         {
             return View();
         }
+        public ActionResult Main()
+        {
+            return View();
+        }
     }
 }

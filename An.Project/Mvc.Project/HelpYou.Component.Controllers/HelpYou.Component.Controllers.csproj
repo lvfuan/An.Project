@@ -51,7 +51,9 @@
     <Compile Include="Manage\HomeController.cs" />
     <Compile Include="Manage\PartViewController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\FileUploadController.cs" />
     <Compile Include="Web\MasterViewController.cs" />
+    <Compile Include="Web\WebPartViewController.cs" />
     <Compile Include="Web\UserManagerController.cs" />
     <Compile Include="Web\WebPublicController.cs" />
   </ItemGroup>
