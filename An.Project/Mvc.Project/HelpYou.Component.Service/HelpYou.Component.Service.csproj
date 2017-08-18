@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseCommon.cs" />
+    <Compile Include="HelpYouServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\BlogServer.cs" />
+    <Compile Include="Service\ErrorLogServer.cs" />
     <Compile Include="Service\MenuServer.cs" />
     <Compile Include="Service\UserServer.cs" />
   </ItemGroup>

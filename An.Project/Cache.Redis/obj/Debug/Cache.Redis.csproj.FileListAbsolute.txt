@@ -62,3 +62,4 @@ D:\An.Project\An.Project\Cache.Redis\bin\Debug\ServiceStack.Text.xml
 D:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.csprojResolveAssemblyReference.cache
 D:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.dll
 D:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.pdb
+G:\An.Project\An.Project\Cache.Redis\obj\Debug\Cache.Redis.csproj.CoreCompileInputs.cache

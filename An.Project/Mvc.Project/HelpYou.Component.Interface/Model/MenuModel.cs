@@ -49,7 +49,7 @@ namespace HelpYou.Component.Interface.Model
         /// 排序
         /// </summary>
         [Display(Name = "排序")]
-        public int? OrderBy { get; set; }
+        public string OrderBy { get; set; }
 
         /// <summary>
         /// 
@@ -82,7 +82,7 @@ namespace HelpYou.Component.Interface.Model
         /// </summary>
         [Display(Name = "状态")]
 
-        public bool? state { get; set; }
+        public bool? State { get; set; }
 
     }
 }

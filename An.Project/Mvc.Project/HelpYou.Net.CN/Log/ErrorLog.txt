@@ -1,0 +1,5 @@
+2017-08-18 17:52:30,605 [1]FATAL TestConsole.LogHelper - Fatal
+2017-08-18 17:53:26,998 [1]FATAL TestConsole.LogHelper - Fatal
+2017-08-18 17:54:57,473 [1]FATAL TestConsole.LogHelper - Fatal
+2017-08-18 17:55:54,605 [1]FATAL TestConsole.LogHelper - Fatal
+2017-08-18 17:56:12,382 [1]FATAL TestConsole.LogHelper - Fatal

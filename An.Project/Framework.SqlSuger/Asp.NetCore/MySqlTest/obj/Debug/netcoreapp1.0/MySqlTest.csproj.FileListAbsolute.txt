@@ -20,3 +20,5 @@ D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netc
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.AssemblyInfo.cs
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.dll
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.pdb
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\MySqlTest\obj\Debug\netcoreapp1.0\MySqlTest.AssemblyInfoInputs.cache

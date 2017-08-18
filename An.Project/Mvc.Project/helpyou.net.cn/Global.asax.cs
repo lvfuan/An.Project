@@ -1,10 +1,14 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
+using HelpYou.Component.Interface;
+using HelpYou.Net.CN.App_Start;
+using log4net;
 using System;
 using System.Reflection;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 using System.Web.Routing;
-
 namespace helpyou.net.cn
 {
     public class MvcApplication : System.Web.HttpApplication
@@ -57,7 +61,8 @@ namespace helpyou.net.cn
             builder.RegisterTypes(stypes)
                 .AsImplementedInterfaces(); //指明创建的stypes这个集合中所有类的对象实例，以其接口的形式保存
 
-
+            //Type type = typeof(IHelpYou);
+            //builder.RegisterType(type).AsImplementedInterfaces();
             //第四步：创建一个真正的AutoFac的工作容器
             var container1 = builder.Build();
 
@@ -84,4 +89,4 @@ namespace helpyou.net.cn
             //具体参考：http://www.cnblogs.com/artech/archive/2012/04/01/controller-activation-032.html
         }
     }
- }
+}

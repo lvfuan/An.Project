@@ -15,7 +15,6 @@ D:\MyProjects\Module.Demo\Ice.Module\Helper.Common\obj\Debug\Helper.Common.pdb
 D:\MyProjects\Module.Demo\Ice.Module\Helper.Common\obj\Debug\Helper.Common.csprojResolveAssemblyReference.cache
 G:\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.dll
 G:\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.pdb
-G:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csprojResolveAssemblyReference.cache
 G:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.dll
 G:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.pdb
 D:\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.dll
@@ -36,3 +35,4 @@ D:\An.Project\An.Project\Module.Common\bin\Debug\NPOI.OpenXmlFormats.dll
 D:\An.Project\An.Project\Module.Common\bin\Debug\NPOI.xml
 D:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csprojResolveAssemblyReference.cache
 D:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csproj.CoreCompileInputs.cache

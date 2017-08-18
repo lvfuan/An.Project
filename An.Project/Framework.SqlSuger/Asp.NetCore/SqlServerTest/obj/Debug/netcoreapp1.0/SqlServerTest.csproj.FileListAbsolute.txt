@@ -20,3 +20,5 @@ D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlServerTest\obj\Debug\
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlServerTest\obj\Debug\netcoreapp1.0\SqlServerTest.dll
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlServerTest\obj\Debug\netcoreapp1.0\SqlServerTest.pdb
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlServerTest\obj\Debug\netcoreapp1.0\SqlServerTest.csprojResolveAssemblyReference.cache
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlServerTest\obj\Debug\netcoreapp1.0\SqlServerTest.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlServerTest\obj\Debug\netcoreapp1.0\SqlServerTest.AssemblyInfoInputs.cache

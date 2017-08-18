@@ -35,8 +35,12 @@
     <Reference Include="EmitMapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\EmitMapper.1.0.0\lib\EmitMapper.dll</HintPath>
     </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\Mvc.Project\HelpYou.Net.CN\bin\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

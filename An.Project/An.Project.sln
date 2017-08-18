@@ -55,7 +55,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestConsole", "UnitTest\TestConsole\UnitTestConsole.csproj", "{30DB004A-A40D-470F-B9F9-D15A8B23C1B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest.NetCore2.0", "UnitTest\UnitTest.NetCore2.0\UnitTest.NetCore2.0.csproj", "{F24EBBD7-6D03-45F3-8EDA-BDE852E93843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest.NetCore2.0", "UnitTest\UnitTest.NetCore2.0\UnitTest.NetCore2.0.csproj", "{F24EBBD7-6D03-45F3-8EDA-BDE852E93843}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

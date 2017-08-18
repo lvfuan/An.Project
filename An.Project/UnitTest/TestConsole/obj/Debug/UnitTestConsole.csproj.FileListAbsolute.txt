@@ -11,3 +11,7 @@ D:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\EmitMapper.dll
 D:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.csprojResolveAssemblyReference.cache
 D:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.exe
 D:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.pdb
+G:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.csprojResolveAssemblyReference.cache
+G:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\log4net.dll
+G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\log4net.xml

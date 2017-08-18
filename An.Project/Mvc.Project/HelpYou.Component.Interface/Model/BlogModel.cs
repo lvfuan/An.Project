@@ -69,6 +69,6 @@ namespace HelpYou.Component.Interface.Model
         /// 
         /// </summary>
         [Display(Name = "")]
-        public bool? state { get; set; }
+        public bool? State { get; set; }
     }
 }

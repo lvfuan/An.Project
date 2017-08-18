@@ -152,11 +152,10 @@ namespace HelpYou.Component.Service.Service
         {
             try
             {
-                return OpenSqlConnection().QueryFirst<UserModel>($"SELECT * FROM [dbo].[Sys_User] WHERE [LoginId]=@loginId",new { loginId=loginId });
+                return OpenSqlConnection().QueryFirstOrDefault<UserModel>($"SELECT * FROM [dbo].[Sys_User] WHERE [LoginId]=@loginId",new { loginId=loginId });
             }
             catch (Exception e)
             {
-
                 throw new ArgumentException("查询失败，原因：" + e.Message);
             }
         }
@@ -168,7 +167,6 @@ namespace HelpYou.Component.Service.Service
         public bool IsExists(string login)
         {
             return OpenSqlConnection().Query<UserModel>($"SELECT * FROM [dbo].[Sys_User] WHERE [LoginId]=@LoginId", new { LoginId = login }).Count() > 0;
-
         }
         public bool IsExists(UserModel model)
         {

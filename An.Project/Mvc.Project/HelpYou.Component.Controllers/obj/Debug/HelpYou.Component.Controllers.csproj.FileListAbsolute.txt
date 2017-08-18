@@ -32,3 +32,7 @@ D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\Hel
 D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\HelpYou.Component.Interface.pdb
 D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\Newtonsoft.Json.dll
 D:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\obj\Debug\HelpYou.Component.Controllers.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\HelpYou.Component.Interface.dll
+G:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\Newtonsoft.Json.dll
+G:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\bin\Debug\HelpYou.Component.Interface.pdb
+G:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Controllers\obj\Debug\HelpYou.Component.Controllers.csproj.CoreCompileInputs.cache

@@ -10,7 +10,7 @@ layui.define(['element', 'layer', 'form'], function (exports) {
         var param = { login: login, pwd: pwd, yzm: yzm }
         $.ajax({
             type: 'post',
-            url: 'home/signin',
+            url: 'UserManager/SignIn',
             data: param,
             beforeSend: function () {
                 if (login == "" || login == "undefined") {

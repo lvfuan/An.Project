@@ -20,3 +20,5 @@ D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\net
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.AssemblyInfo.cs
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.dll
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.pdb
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqliteTest\obj\Debug\netcoreapp1.0\SqliteTest.AssemblyInfoInputs.cache

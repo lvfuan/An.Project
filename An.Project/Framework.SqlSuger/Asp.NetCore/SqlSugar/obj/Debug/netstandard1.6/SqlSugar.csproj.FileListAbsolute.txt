@@ -4,7 +4,6 @@ G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\bin\Debug\netst
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.AssemblyInfo.cs
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.dll
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.pdb
-G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.csprojResolveAssemblyReference.cache
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\bin\Debug\netstandard1.6\SqlSugar.deps.json
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\bin\Debug\netstandard1.6\SqlSugar.dll
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\bin\Debug\netstandard1.6\SqlSugar.pdb
@@ -12,3 +11,5 @@ D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netst
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.AssemblyInfo.cs
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.dll
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.pdb
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.AssemblyInfoInputs.cache

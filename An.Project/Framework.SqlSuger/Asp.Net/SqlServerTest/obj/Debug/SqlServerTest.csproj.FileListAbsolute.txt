@@ -34,3 +34,4 @@ D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlServerTest\bin\Debug\SqlS
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlServerTest\obj\Debug\SqlServerTest.csprojResolveAssemblyReference.cache
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlServerTest\obj\Debug\OrmTest.exe
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlServerTest\obj\Debug\OrmTest.pdb
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlServerTest\obj\Debug\SqlServerTest.csproj.CoreCompileInputs.cache
