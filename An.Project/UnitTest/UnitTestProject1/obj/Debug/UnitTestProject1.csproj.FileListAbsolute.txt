@@ -29,3 +29,4 @@ G:\An.Project\An.Project\UnitTest\UnitTestProject1\obj\Debug\UnitTestProject1.cs
 G:\An.Project\An.Project\UnitTest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
 G:\An.Project\An.Project\UnitTest\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 G:\An.Project\An.Project\UnitTest\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+D:\An.Project\An.Project\UnitTest\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache

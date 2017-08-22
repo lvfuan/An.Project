@@ -26,3 +26,4 @@ D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\obj\Debug\SqlSugar.
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\obj\Debug\SqlSugar.dll
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\obj\Debug\SqlSugar.pdb
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\obj\Debug\SqlSugar.csproj.CoreCompileInputs.cache
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqlSugar\obj\Debug\SqlSugar.csproj.CoreCompileInputs.cache

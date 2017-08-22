@@ -1437,7 +1437,7 @@
     "Microsoft.Data.Sqlite/1.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1L1ndXFfk0IniEbpkZaG2Jyzokt9zZbWqD1MHellRFtIpaJy+vs+Wbfh313ai7TAoXP1oCxK3h3KzqCSMaIlEQ==",
+      "sha512": "sha512-FGr9UFP5Gq/emOO7vxLCyhmNEjOs8Jj+sDqp/EPGjCPLmnzLzfE17xO9avCR2yP82GYAC/mC6r3Whdz6vXi+qA==",
       "path": "microsoft.data.sqlite/1.0.1",
       "hashPath": "microsoft.data.sqlite.1.0.1.nupkg.sha512"
     },
@@ -1605,7 +1605,7 @@
     "SQLite/3.13.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
+      "sha512": "sha512-GQ5gJF9esKVueVgj03jlq4oKScoJD0vjxHcdOqJiHRCeDlpLFtT05mE9di5LBSGnRi3MFHm39rCWUtldMbCJyQ==",
       "path": "sqlite/3.13.0",
       "hashPath": "sqlite.3.13.0.nupkg.sha512"
     },
@@ -1689,7 +1689,7 @@
     "System.Data.Common/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-epU8jeTe7aE7RqGHq9rZ8b0Q4Ah7DgubzHQblgZMSqgW1saW868WmooSyC5ywf8upLBkcVLDu93W9GPWUYsU2Q==",
+      "sha512": "sha512-z7TvXWi5G6+Q9WYBbmVxBu4nSg7E5a2pMdXQWj86j2lKsFwnosDS1UYoWvz7h6Ennu98DNUN1dmZcEj/ZyIZtA==",
       "path": "system.data.common/4.1.0",
       "hashPath": "system.data.common.4.1.0.nupkg.sha512"
     },
