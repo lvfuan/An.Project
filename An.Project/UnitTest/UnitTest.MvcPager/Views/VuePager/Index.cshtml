@@ -1,0 +1,77 @@
+﻿@{
+    Layout = null;
+    var totalRecord = ViewBag.TotalRecord;
+    var pageCount = ViewBag.PageCount;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title></title>
+    <link href="~/css/VuePager.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="pageTable">
+        <table id="pagerData">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>标题</th>
+                    <th>内容</th>
+                    <th>创建时间</th>
+                    <th>创建人</th>
+                </tr>
+            </thead>
+            <tr v-for="item in Items">
+                <td>{{item.Id}}</td>
+                <td>{{item.Title}}</td>
+                <td>{{item.Content}}</td>
+                <td>{{item.CreateTime}}</td>
+                <td>{{item.CreateUser}}</td>
+            </tr>
+        </table>
+    </div>
+    <div id="app">
+        <vue-pagination :cur.sync="cur" :all.sync="all" v-on:btn-click="listen"></vue-pagination>
+        <p>{{msg}}</p>
+    </div>
+    <script src="~/js/jquery-1.10.2.min.js"></script>
+    <script src="~/js/vue.min.js"></script>
+    <script src="~/js/VuePager.js"></script>
+    <script type="text/javascript">
+        var data = '@ViewBag.json'.replace(/&quot;/g, "\"");
+        var pageCount = '@pageCount';
+        var $_pageSize = 10;
+        $(function () {
+            $("#pageCount").text(pageCount);
+        })
+        var json = JSON.parse(data);
+        var pageTable = new Vue({
+            el: '#pageTable',
+            data: json
+        })
+
+        var app = new Vue({
+            el: '#app',
+            data: {
+                // 当前页码
+                cur: 1,
+                // 总页数
+                all: pageCount,
+                msg: ''
+            },
+            components: {
+                // 引用组件
+                'vue-pagination': Vue.Pagination
+            },
+            methods: {
+                listen: function (data) {
+                    // 翻页事件
+                    this.msg = '当前页码：' + data
+                }
+            }
+        })
+    </script>
+</body>
+</html>
