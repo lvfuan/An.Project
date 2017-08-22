@@ -147,6 +147,5 @@ G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\HelpYou.Component.Contro
 G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\HelpYou.Component.Interface.pdb
 G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\HelpYou.Component.Service.pdb
 G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\NPOI.xml
-G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\obj\Debug\HelpYou.Net.CN.csproj.CoreCompileInputs.cache
 G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\log4net.dll
 G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\log4net.xml
