@@ -7,6 +7,8 @@ namespace HelpYou.Component.Controllers.Web
         public WebPublicController() { }
         public ActionResult Index()
         {
+            var t = int.Parse("qwe");
+
             return View();
         }
         public ActionResult About()

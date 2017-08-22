@@ -1,14 +1,15 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
-using HelpYou.Component.Interface;
-using HelpYou.Net.CN.App_Start;
-using log4net;
 using System;
 using System.Reflection;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Web.Mvc;
 using System.Web.Routing;
+using log4net.Config;
+using System.IO;
+using log4net;
+using HelpYou.Net.CN.App_Start;
+
+//[assembly: XmlConfigurator(Watch = true)]
 namespace helpyou.net.cn
 {
     public class MvcApplication : System.Web.HttpApplication
@@ -18,8 +19,22 @@ namespace helpyou.net.cn
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             AutofacRegister.ContainerBuilderRegister();
+            RegisterGlobalFilters(GlobalFilters.Filters);
+
+
         }
+        /// <summary>
+        /// 日志记录
+        /// </summary>
+        /// <param name="filters"></param>
+        public static void RegisterGlobalFilters(GlobalFilterCollection filters)
+        {
+            filters.Add(new Log4NetFilterAttribute());
+        }      
     }
+    /// <summary>
+    /// IOC注入
+    /// </summary>
     public class AutofacRegister
     {
         public static void ContainerBuilderRegister()
