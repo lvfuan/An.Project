@@ -23,3 +23,4 @@ D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteT
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteTest.exe
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteTest.pdb
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteTest.csproj.CoreCompileInputs.cache
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\SqliteTest\obj\Debug\SqliteTest.csproj.CoreCompileInputs.cache

@@ -149,3 +149,5 @@ G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\HelpYou.Component.Servic
 G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\NPOI.xml
 G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\log4net.dll
 G:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\log4net.xml
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\log4net.dll
+D:\An.Project\An.Project\Mvc.Project\helpyou.net.cn\bin\log4net.xml

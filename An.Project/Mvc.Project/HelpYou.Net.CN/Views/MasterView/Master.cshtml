@@ -37,25 +37,25 @@
             <!-- 导航菜单 -->
             <ul class="layui-nav" lay-filter="nav"  id="menu_ul">  
                 <li class="layui-nav-item" id="index">
-                    <a href="@Url.Action("Index")"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
+                    <a href="@Url.Action("Index","WebPublic")"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
                 </li>
                 <li class="layui-nav-item" id="article">
-                    <a href="@Url.Action("Article")"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
+                    <a href="@Url.Action("Article","WebPublic")"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
                 </li>
                 <li class="layui-nav-item" id="resource">
-                    <a href="@Url.Action("Resource")"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
+                    <a href="@Url.Action("Resource","WebPublic")"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
                 </li>
                 <li class="layui-nav-item" id="timeline">
-                    <a href="@Url.Action("Timeline")"><i class="fa fa-hourglass-half fa-fw"></i>&nbsp;点点滴滴</a>
+                    <a href="@Url.Action("TimeLine","WebPublic")"><i class="fa fa-hourglass-half fa-fw"></i>&nbsp;点点滴滴</a>
                 </li>
                 <li class="layui-nav-item" id="about">
-                    <a href="@Url.Action("About")"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
+                    <a href="@Url.Action("About","WebPublic")"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
                 </li>
             </ul>
             <!-- 手机和平板的导航开关 -->
-            <a class="blog-navicon" href="javascript:;">
+            @*<a class="blog-navicon" href="javascript:;">
                 <i class="fa fa-navicon"></i>
-            </a>
+            </a>*@
         </div>
     </nav>
     @RenderBody()
@@ -67,19 +67,19 @@
     <!--侧边导航-->
     <ul class="layui-nav layui-nav-tree layui-nav-side blog-nav-left layui-hide" lay-filter="nav">
         <li class="layui-nav-item">
-            <a href="@Url.Action("Index")"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
+            <a href="@Url.Action("Index","WebPublic")"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
         </li>
         <li class="layui-nav-item layui-this">
-            <a href="@Url.Action("Article")"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
+            <a href="@Url.Action("Article","WebPublic")"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
         </li>
         <li class="layui-nav-item">
-            <a href="@Url.Action("Resource")"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
+            <a href="@Url.Action("Resource","WebPublic")"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
         </li>
         <li class="layui-nav-item">
-            <a href="@Url.Action("Timeline")"><i class="fa fa-road fa-fw"></i>&nbsp;点点滴滴</a>
+            <a href="@Url.Action("TimeLine","WebPublic")"><i class="fa fa-road fa-fw"></i>&nbsp;点点滴滴</a>
         </li>
         <li class="layui-nav-item">
-            <a href="@Url.Action("About")"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
+            <a href="@Url.Action("About","WebPublic")"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
         </li>
     </ul>
     <!--分享窗体-->

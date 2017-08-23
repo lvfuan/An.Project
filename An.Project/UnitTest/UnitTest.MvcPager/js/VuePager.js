@@ -112,3 +112,6 @@ function VueAjax(pageIndex, pageSize) {
     })
 
 }
+
+
+

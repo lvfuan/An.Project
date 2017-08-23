@@ -1,27 +1,23 @@
-﻿using EmitMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using log4net.Config;
-using System.Reflection;
 using log4net;
 using System.IO;
-using System.Web;
-using System.Data;
-
+[assembly: XmlConfigurator(Watch = true)]
 namespace TestConsole
 {
+    
     class Program
     {
-        //private static log4net.ILog myLogger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        private static readonly ILog log = LogManager.GetLogger(typeof(Program));
         static void Main(string[] args)
         {
-            //var s =new DataSet().ReadXml(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log4net.config"));
-            XmlConfigurator.ConfigureAndWatch(new FileInfo(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log4net.config")));
-            ILog log = LogHelper.GetInstance();
-            log.Fatal("Fatal");
+            InitLog4Net();
+            log.Info("自定义Info级别的信息");
+            log.Error("error", new Exception(" error 信息 。。。"));
+            log.Fatal("fatal", new Exception(" fatal 信息 。。。"));
+            log.Info("info", new Exception(" info 信息 。。。"));
+            log.Debug("debug", new Exception(" debug 信息 。。。"));
+            log.Warn("warn", new Exception(" warn 信息 。。。"));
             #region 
             //var demo1 = new TestDemo1()
             //{
@@ -66,50 +62,55 @@ namespace TestConsole
             #endregion
             Console.ReadKey();
         }
-    }
-    public class LogHelper
-    {
-        /// <summary>
-        /// 日志辅助类
-        /// </summary>
-        private static ILog log;
-        private static LogHelper logHelper = null;
-        /// <summary>
-        /// 初始化
-        /// </summary>
-        /// <returns></returns>
-        public static ILog GetInstance()
+        private static void InitLog4Net()
         {
-            logHelper = new LogHelper(null);
-
-            return log;
-        }
-        /// <summary>
-        /// 初始化
-        /// </summary>
-        /// <param name="configPath"></param>
-        /// <returns></returns>
-        public static ILog GetInstance(string configPath)
-        {
-            logHelper = new LogHelper(configPath);
-
-            return log;
-        }
-        /// <summary>
-        /// 构造函数
-        /// </summary>
-        /// <param name="configPath"></param>
-        private LogHelper(string configPath)
-        {
-            if (!string.IsNullOrEmpty(configPath))
-            {
-                log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-                log4net.Config.XmlConfigurator.Configure(new System.IO.FileInfo(configPath));
-            }
-            else
-            {
-                log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-            }
+            var logCfg = new FileInfo(AppDomain.CurrentDomain.BaseDirectory + "log4net.config");
+            XmlConfigurator.ConfigureAndWatch(logCfg);
         }
     }
+    //public class LogHelper
+    //{
+    //    /// <summary>
+    //    /// 日志辅助类
+    //    /// </summary>
+    //    private static ILog log;
+    //    private static LogHelper logHelper = null;
+    //    /// <summary>
+    //    /// 初始化
+    //    /// </summary>
+    //    /// <returns></returns>
+    //    public static ILog GetInstance()
+    //    {
+    //        logHelper = new LogHelper(null);
+
+    //        return log;
+    //    }
+    //    /// <summary>
+    //    /// 初始化
+    //    /// </summary>
+    //    /// <param name="configPath"></param>
+    //    /// <returns></returns>
+    //    public static ILog GetInstance(string configPath)
+    //    {
+    //        logHelper = new LogHelper(configPath);
+
+    //        return log;
+    //    }
+    //    /// <summary>
+    //    /// 构造函数
+    //    /// </summary>
+    //    /// <param name="configPath"></param>
+    //    private LogHelper(string configPath)
+    //    {
+    //        if (!string.IsNullOrEmpty(configPath))
+    //        {
+    //            log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+    //            XmlConfigurator.Configure(new System.IO.FileInfo(configPath));
+    //        }
+    //        else
+    //        {
+    //            log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+    //        }
+        //}
+    //}
 }

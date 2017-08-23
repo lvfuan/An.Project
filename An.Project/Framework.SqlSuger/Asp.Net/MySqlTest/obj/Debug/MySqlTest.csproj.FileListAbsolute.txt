@@ -38,3 +38,4 @@ D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\MySqlTest\obj\Debug\MySqlTes
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\MySqlTest\obj\Debug\MySqlTest.exe
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\MySqlTest\obj\Debug\MySqlTest.pdb
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\MySqlTest\obj\Debug\MySqlTest.csproj.CoreCompileInputs.cache
+D:\An.Project\An.Project\Framework.SqlSuger\Asp.Net\MySqlTest\obj\Debug\MySqlTest.csproj.CoreCompileInputs.cache

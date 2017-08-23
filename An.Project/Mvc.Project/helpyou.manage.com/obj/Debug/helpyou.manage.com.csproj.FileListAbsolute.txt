@@ -147,3 +147,4 @@ G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Se
 G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\HelpYou.Component.Interface.pdb
 G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\bin\Framework.Dapper.pdb
 G:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\obj\Debug\HelpYou.Manage.COM.csproj.CoreCompileInputs.cache
+D:\An.Project\An.Project\Mvc.Project\helpyou.manage.com\obj\Debug\HelpYou.Manage.COM.csproj.CoreCompileInputs.cache

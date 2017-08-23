@@ -1,10 +1,14 @@
 ﻿body {
 }
+
 ul, li {
     margin: 0px;
     padding: 0px;
 }
 
+#app {
+    float: right;
+}
 .page-bar {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -38,7 +42,8 @@ ul, li {
     color: #337ab7;
     cursor: pointer;
 }
-.page_Content{
+
+.page_Content {
     border: 1px solid #ddd;
     text-decoration: none;
     position: relative;
@@ -49,26 +54,28 @@ ul, li {
     color: #337ab7;
     /*cursor: pointer;*/
 }
+
 .page_index {
     border: 1px solid #ddd;
     text-decoration: none;
     position: relative;
     float: left;
-    padding: 6px 12px;
     margin-left: -1px;
-    margin-right:4px;
+    margin-right: 4px;
     line-height: 1.42857143;
-    height: 23px;
+    height: 36px;
     color: #337ab7;
-    width: 24px;
-    text-align:center;
-} 
+    width: 50px;
+    text-align: center;
+}
+
 .span_bar {
     color: red;
 }
-    .page-bar a:hover {
-        background-color: #eee;
-    }
+
+.page-bar a:hover {
+    background-color: #eee;
+}
 
 .page-bar .active a {
     color: #fff;
@@ -82,4 +89,42 @@ ul, li {
     color: #d44950;
     margin: 0px 4px;
     font-size: 12px;
+}
+
+
+
+/*表格部分*/
+table {
+    /*border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;*/
+    width:100%;
+    margin-bottom:6px;
+}
+
+th {
+    background-color: #337ab7;
+    color: rgba(255,255,255,0.66);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -user-select: none;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+th, td {
+    min-width: 120px;
+    padding: 10px 20px;
+    text-align:center;
+}
+
+ th.active {
+     color: #fff;
+ }
+
+th.active .arrow {
+    opacity: 1;
 }

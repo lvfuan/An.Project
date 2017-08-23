@@ -109,6 +109,8 @@
     <Content Include="Content\css\prettify.css" />
     <Content Include="Content\css\resource.css" />
     <Content Include="Content\css\timeline.css" />
+    <Content Include="Content\images\404.png" />
+    <Content Include="Content\images\500.png" />
     <Content Include="Content\images\Absolutely.jpg" />
     <Content Include="Content\images\background.jpg" />
     <Content Include="Content\images\cover\201703051349045432.jpg" />
@@ -246,12 +248,17 @@
     <Content Include="Content\plug\layui\lay\modules\upload.js" />
     <Content Include="Content\plug\layui\lay\modules\util.js" />
     <Content Include="Global.asax" />
+    <Content Include="Log\logfile\Log.txt" />
     <Content Include="Views\MasterView\Master.cshtml" />
     <Content Include="Views\UserManager\Index.cshtml" />
     <Content Include="Views\WebPartView\SignIn.cshtml" />
     <Content Include="Views\UserManager\Main.cshtml" />
     <Content Include="Views\FileUpload\UpLoadImage.cshtml" />
-    <Content Include="Log4.config" />
+    <Content Include="Log\config\log4net.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\WebPartView\Error404.cshtml" />
+    <Content Include="Views\WebPartView\Error500.cshtml" />
     <None Include="Views\WebPublic\Index.cshtml" />
     <None Include="Views\WebPublic\about.cshtml" />
     <None Include="Views\WebPublic\article.cshtml" />
@@ -261,12 +268,14 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\ConstomErrorHandle.cs" />
+    <Compile Include="App_Start\Log4NetFilterAttribute .cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Log\Helper\Log4NetService.cs" />
+    <Compile Include="Log\Helper\Log4NetHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -317,7 +326,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Log\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Framework.Dapper\Framework.Dapper.csproj">

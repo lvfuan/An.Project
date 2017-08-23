@@ -15,3 +15,6 @@ G:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.csprojRe
 G:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.csproj.CoreCompileInputs.cache
 G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\log4net.dll
 G:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\log4net.xml
+D:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\log4net.dll
+D:\An.Project\An.Project\UnitTest\TestConsole\bin\Debug\log4net.xml
+D:\An.Project\An.Project\UnitTest\TestConsole\obj\Debug\UnitTestConsole.csproj.CoreCompileInputs.cache

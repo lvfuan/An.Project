@@ -1,0 +1,30 @@
+﻿@charset 'utf-8';
+*{
+	padding: 0;
+	margin-left: 0;
+}
+input[type='radio'],input[type='checkbox']{
+	width: 20px;
+	height: 20px;
+	vertical-align:middle;
+	opacity: 0;
+
+}
+.input_style{
+	background: url(../images/green.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.radio_bg{
+	background-position: -118px 0 ;
+}
+.checkbox_bg{
+	background-position: 0 0;
+}
+.radio_bg_check{
+	background-position: -166px 0 ;
+}
+.checkbox_bg_check{
+	background-position: -48px 0;
+}
