@@ -17,7 +17,6 @@ namespace UnitTest.MvcPager.Controllers
             ViewBag.TotalRecord = list.Count();//总记录
             ViewBag.PageCount = Math.Ceiling(list.Count * 0.1 / 10) * 10; //总页数
             var page = list.OrderBy(x => x.Id).Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
-
             Dictionary<string, List<PagerDemo>> dic = new Dictionary<string, List<PagerDemo>>();
             dic.Add("Items", page);
             var json = JsonConvert.SerializeObject(dic);

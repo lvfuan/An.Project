@@ -1,0 +1,5 @@
+G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\bin\Debug\Vue.Interfaces.dll
+G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\bin\Debug\Vue.Interfaces.pdb
+G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.csprojResolveAssemblyReference.cache
+G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.dll
+G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.pdb

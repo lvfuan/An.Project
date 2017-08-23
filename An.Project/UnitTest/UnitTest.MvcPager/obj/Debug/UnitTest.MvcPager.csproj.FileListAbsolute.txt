@@ -57,3 +57,5 @@ G:\An.Project\An.Project\UnitTest\UnitTest.MvcPager\bin\zh-Hans\System.Web.WebPa
 G:\An.Project\An.Project\UnitTest\UnitTest.MvcPager\obj\Debug\UnitTest.MvcPager.dll
 G:\An.Project\An.Project\UnitTest\UnitTest.MvcPager\obj\Debug\UnitTest.MvcPager.pdb
 G:\An.Project\An.Project\UnitTest\UnitTest.MvcPager\obj\Debug\UnitTest.MvcPager.csprojResolveAssemblyReference.cache
+G:\An.Project\An.Project\UnitTest\UnitTest.MvcPager\bin\zh-Hans\System.Web.Optimization.resources.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.MvcPager\obj\Debug\UnitTest.MvcPager.csproj.CoreCompileInputs.cache
