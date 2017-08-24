@@ -35,15 +35,4 @@ D:\An.Project\An.Project\Module.Common\bin\Debug\NPOI.OpenXmlFormats.dll
 D:\An.Project\An.Project\Module.Common\bin\Debug\NPOI.xml
 D:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csproj.CoreCompileInputs.cache
 G:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csproj.CoreCompileInputs.cache
-D:\MyProjects\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.dll
-D:\MyProjects\An.Project\An.Project\Module.Common\bin\Debug\Helper.Common.pdb
-D:\MyProjects\An.Project\An.Project\Module.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
-D:\MyProjects\An.Project\An.Project\Module.Common\bin\Debug\NPOI.dll
-D:\MyProjects\An.Project\An.Project\Module.Common\bin\Debug\NPOI.OOXML.dll
-D:\MyProjects\An.Project\An.Project\Module.Common\bin\Debug\NPOI.OpenXml4Net.dll
-D:\MyProjects\An.Project\An.Project\Module.Common\bin\Debug\NPOI.OpenXmlFormats.dll
-D:\MyProjects\An.Project\An.Project\Module.Common\bin\Debug\NPOI.xml
-D:\MyProjects\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csprojResolveAssemblyReference.cache
-D:\MyProjects\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csproj.CoreCompileInputs.cache
-D:\MyProjects\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.dll
-D:\MyProjects\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.pdb
+G:\An.Project\An.Project\Module.Common\obj\Debug\Helper.Common.csprojResolveAssemblyReference.cache

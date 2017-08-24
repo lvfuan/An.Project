@@ -15,3 +15,4 @@ G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netst
 G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.AssemblyInfoInputs.cache
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.csproj.CoreCompileInputs.cache
 D:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.AssemblyInfoInputs.cache
+G:\An.Project\An.Project\Framework.SqlSuger\Asp.NetCore\SqlSugar\obj\Debug\netstandard1.6\SqlSugar.csprojResolveAssemblyReference.cache

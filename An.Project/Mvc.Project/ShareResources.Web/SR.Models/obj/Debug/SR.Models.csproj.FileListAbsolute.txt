@@ -1,0 +1,11 @@
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\SR.Models.dll
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\SR.Models.pdb
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\obj\Debug\SR.Models.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\obj\Debug\SR.Models.dll
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\obj\Debug\SR.Models.pdb
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\SR.Models.dll.config
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.dll
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.SqlServer.dll
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.xml
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.SqlServer.xml
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\obj\Debug\SR.Models.csprojResolveAssemblyReference.cache
