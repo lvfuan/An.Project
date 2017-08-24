@@ -24,3 +24,4 @@ D:\An.Project\An.Project\Framework.Dapper\obj\Debug\Framework.Dapper.pdb
 D:\An.Project\An.Project\Framework.Dapper\obj\Debug\Framework.Dapper.csproj.CoreCompileInputs.cache
 G:\An.Project\An.Project\Framework.Dapper\obj\Debug\Framework.Dapper.csproj.CoreCompileInputs.cache
 D:\An.Project\An.Project\Framework.Dapper\obj\Debug\Framework.Dapper.csprojResolveAssemblyReference.cache
+G:\An.Project\An.Project\Framework.Dapper\obj\Debug\Framework.Dapper.csprojResolveAssemblyReference.cache

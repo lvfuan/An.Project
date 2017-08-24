@@ -6,3 +6,7 @@ D:\An.Project\An.Project\Module.Log4Net\Module.Log4Net\obj\Debug\Module.Log4Net.
 D:\An.Project\An.Project\Module.Log4Net\Module.Log4Net\obj\Debug\Module.Log4Net.csproj.CoreCompileInputs.cache
 D:\An.Project\An.Project\Module.Log4Net\Module.Log4Net\obj\Debug\Module.Log4Net.dll
 D:\An.Project\An.Project\Module.Log4Net\Module.Log4Net\obj\Debug\Module.Log4Net.pdb
+G:\An.Project\An.Project\Module.Log4Net\Module.Log4Net\obj\Debug\Module.Log4Net.csprojResolveAssemblyReference.cache
+G:\An.Project\An.Project\Module.Log4Net\Module.Log4Net\obj\Debug\Module.Log4Net.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\Module.Log4Net\Module.Log4Net\obj\Debug\Module.Log4Net.dll
+G:\An.Project\An.Project\Module.Log4Net\Module.Log4Net\obj\Debug\Module.Log4Net.pdb

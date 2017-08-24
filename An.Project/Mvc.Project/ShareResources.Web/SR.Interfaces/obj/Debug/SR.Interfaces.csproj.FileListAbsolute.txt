@@ -1,0 +1,11 @@
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Interfaces.dll
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Interfaces.pdb
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\obj\Debug\SR.Interfaces.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\obj\Debug\SR.Interfaces.dll
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\obj\Debug\SR.Interfaces.pdb
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Models.dll
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\EntityFramework.dll
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Models.pdb
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Models.dll.config
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\EntityFramework.xml
+G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\obj\Debug\SR.Interfaces.csprojResolveAssemblyReference.cache
