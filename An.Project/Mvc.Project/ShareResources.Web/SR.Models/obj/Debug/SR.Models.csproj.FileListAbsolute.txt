@@ -9,3 +9,14 @@ G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\Enti
 G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.xml
 G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.SqlServer.xml
 G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\obj\Debug\SR.Models.csprojResolveAssemblyReference.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\SR.Models.dll.config
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\SR.Models.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\SR.Models.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.xml
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\obj\Debug\SR.Models.csproj.CoreCompileInputs.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\obj\Debug\SR.Models.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\obj\Debug\SR.Models.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Models\obj\Debug\SR.Models.csprojResolveAssemblyReference.cache

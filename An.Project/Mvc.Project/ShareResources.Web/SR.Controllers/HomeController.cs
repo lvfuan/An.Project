@@ -11,6 +11,7 @@ namespace SR.Controllers
         public HomeController(ISRContainer container) { _CONTAINER = container; }
         public ActionResult Index()
         {
+            var  s= _CONTAINER.Menu.QueryList(0);
             return View();
         }
     }
