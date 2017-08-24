@@ -26,3 +26,17 @@ G:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpY
 G:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.csproj.CoreCompileInputs.cache
 G:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.dll
 G:\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\HelpYou.Component.Interface.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\HelpYou.Component.Interface.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\Helper.Common.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\NPOI.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\NPOI.OOXML.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\NPOI.OpenXml4Net.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\Helper.Common.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\bin\Debug\NPOI.xml
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.csprojResolveAssemblyReference.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.csproj.CoreCompileInputs.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\HelpYou.Component.Interface\obj\Debug\HelpYou.Component.Interface.pdb

@@ -3,3 +3,9 @@ G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\bin\Debug\Vue.Interf
 G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.csprojResolveAssemblyReference.cache
 G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.dll
 G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\bin\Debug\Vue.Interfaces.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\bin\Debug\Vue.Interfaces.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.csprojResolveAssemblyReference.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.csproj.CoreCompileInputs.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Interfaces\obj\Debug\Vue.Interfaces.pdb

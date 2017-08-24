@@ -3,3 +3,9 @@ G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\bin\Debug\Vue.Models.pdb
 G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\obj\Debug\Vue.Models.csprojResolveAssemblyReference.cache
 G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\obj\Debug\Vue.Models.dll
 G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\obj\Debug\Vue.Models.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\bin\Debug\Vue.Models.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\bin\Debug\Vue.Models.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\obj\Debug\Vue.Models.csprojResolveAssemblyReference.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\obj\Debug\Vue.Models.csproj.CoreCompileInputs.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\obj\Debug\Vue.Models.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Models\obj\Debug\Vue.Models.pdb

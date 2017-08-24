@@ -7,3 +7,14 @@ G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\bin\Debug\zh-Hans\M
 G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\obj\Debug\Vue.Controllers.csprojResolveAssemblyReference.cache
 G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\obj\Debug\Vue.Controllers.dll
 G:\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\obj\Debug\Vue.Controllers.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\bin\Debug\Vue.Controllers.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\bin\Debug\Vue.Controllers.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\bin\Debug\System.Web.Mvc.xml
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\bin\Debug\zh-Hans\Microsoft.Web.Infrastructure.resources.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\obj\Debug\Vue.Controllers.csprojResolveAssemblyReference.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\obj\Debug\Vue.Controllers.csproj.CoreCompileInputs.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\obj\Debug\Vue.Controllers.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\Vue.Web\Vue.Controllers\obj\Debug\Vue.Controllers.pdb
