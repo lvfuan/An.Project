@@ -9,3 +9,14 @@ G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\
 G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Models.dll.config
 G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\EntityFramework.xml
 G:\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\obj\Debug\SR.Interfaces.csprojResolveAssemblyReference.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Interfaces.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Interfaces.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Models.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\EntityFramework.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Models.pdb
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\SR.Models.dll.config
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\bin\Debug\EntityFramework.xml
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\obj\Debug\SR.Interfaces.csprojResolveAssemblyReference.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\obj\Debug\SR.Interfaces.csproj.CoreCompileInputs.cache
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\obj\Debug\SR.Interfaces.dll
+D:\MyProjects\An.Project\An.Project\Mvc.Project\ShareResources.Web\SR.Interfaces\obj\Debug\SR.Interfaces.pdb

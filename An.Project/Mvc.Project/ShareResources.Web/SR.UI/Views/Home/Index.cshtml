@@ -1,314 +1,176 @@
-﻿  @{ 
-      Layout= "~/Views/Partial/Master.cshtml";
-  }
-    <!-- banner start -->
-@*<div class="am-g am-g-fixed blog-fixed am-u-sm-centered blog-article-margin">
-    <div data-am-widget="slider" class="am-slider am-slider-b1" data-am-slider='{&quot;controlNav&quot;:false}'>
-        <ul class="am-slides">
-            <li>
-                <img src="~/Content/assets/i/b1.jpg">
-                <div class="blog-slider-desc am-slider-desc ">
-                    <div class="blog-text-center blog-slider-con">
-                        <span><a href="" class="blog-color">Article &nbsp;</a></span>
-                        <h1 class="blog-h-margin"><a href="">总在思考一句积极的话</a></h1>
-                        <p>
-                            那时候刚好下着雨，柏油路面湿冷冷的，还闪烁着青、黄、红颜色的灯火。
-                        </p>
-                        <span class="blog-bor">2015/10/9</span>
-                        <br><br><br><br><br><br><br>
-                    </div>
+﻿@{
+    Layout = "~/Views/Partial/Master.cshtml";
+}
+<div class="am-g am-g-fixed blog-fixed blog-content">
+    <div class="am-u-md-8 am-u-sm-12 am-panel-secondary">
+        <article class="am-article blog-article-p">
+            <!--语言分类新闻-->
+            <ul class="am-nav am-nav-tabs">
+                <li class="am-active"><a href="#">C#</a></li>
+                <li><a href="#">C</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+            <div data-am-widget="list_news" class="am-list-news am-list-news-default">
+                <div class="am-list-news-hd am-cf">
+                    @*<a href="##" class="">
+                            <h2>栏目标题</h2>
+                            <span class="am-list-news-more am-fr">更多 &raquo;</span>
+                        </a> *@
                 </div>
-            </li>
-            <li>
-                <img src="~/Content/assets/i/b2.jpg">
-                <div class="am-slider-desc blog-slider-desc">
-                    <div class="blog-text-center blog-slider-con">
-                        <span><a href="" class="blog-color">Article &nbsp;</a></span>
-                        <h1 class="blog-h-margin"><a href="">总在思考一句积极的话</a></h1>
-                        <p>
-                            那时候刚好下着雨，柏油路面湿冷冷的，还闪烁着青、黄、红颜色的灯火。
-                        </p>
-                        <span>2015/10/9</span>
-                    </div>
+                <div class="am-list-news-bd">
+                    <ul class="am-list">
+                        <li class="am-g am-list-item-default">
+                            <a href="##" class="am-list-item-hd ">我很囧，你保重....晒晒旅行中的那些囧！</a>
+                            <span class="am-list-date">2013-09-18</span>
+                        </li>
+                        <li class="am-g am-list-item-default">
+                            <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
+                            <span class="am-list-date">2013-10-14</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+                            <span class="am-list-date">2013-11-18</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+                            <span class="am-list-date">2013-11-18</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+                            <span class="am-list-date">2013-11-18</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+                            <span class="am-list-date">2013-11-18</span>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-            <li>
-                <img src="~/Content/assets/i/b3.jpg">
-                <div class="am-slider-desc blog-slider-desc">
-                    <div class="blog-text-center blog-slider-con">
-                        <span><a href="" class="blog-color">Article &nbsp;</a></span>
-                        <h1 class="blog-h-margin"><a href="">总在思考一句积极的话</a></h1>
-                        <p>
-                            那时候刚好下着雨，柏油路面湿冷冷的，还闪烁着青、黄、红颜色的灯火。
-                        </p>
-                        <span>2015/10/9</span>
-                    </div>
+            </div>
+        </article>
+        <!--语言分类新闻-->
+        <hr data-am-widget="divider" style="" class="am-divider am-divider-dashed" />
+        <!--模块分类-->
+        <article class="am-article blog-article-p">
+            <ul class="am-nav am-nav-tabs">
+                <li class="am-active"><a href="#">精选博文</a></li>
+                <li><a href="#">今日快报</a></li>
+                <li><a href="#">资源分享</a></li>
+                <li><a href="#">求助大神</a></li>
+            </ul>
+            <div data-am-widget="list_news" class="am-list-news am-list-news-default">
+                <div class="am-list-news-hd am-cf">
+                    @*<a href="##" class="">
+                        <h2>栏目标题</h2>
+                         <span class="am-list-news-more am-fr">更多 &raquo;</span>
+                         </a>   *@
                 </div>
-            </li>
-            <li>
-                <img src="~/Content/assets/i/b2.jpg">
-                <div class="am-slider-desc blog-slider-desc">
-                    <div class="blog-text-center blog-slider-con">
-                        <span><a href="" class="blog-color">Article &nbsp;</a></span>
-                        <h1 class="blog-h-margin"><a href="">总在思考一句积极的话</a></h1>
-                        <p>
-                            那时候刚好下着雨，柏油路面湿冷冷的，还闪烁着青、黄、红颜色的灯火。
-                        </p>
-                        <span>2015/10/9</span>
-                    </div>
+                <div class="am-list-news-bd">
+                    <ul class="am-list">
+                        <li class="am-g am-list-item-default">
+                            <a href="##" class="am-list-item-hd ">我很囧，你保重....晒晒旅行中的那些囧！</a>
+                            <span class="am-list-date">2013-09-18</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
+                            <span class="am-list-date">2013-10-14</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+                            <span class="am-list-date">2013-11-18</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+                            <span class="am-list-date">2013-11-18</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+                            <span class="am-list-date">2013-11-18</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+                            <span class="am-list-date">2013-11-18</span>
+                        </li>
+                        <li class="am-g am-list-item-dated">
+                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
+                            <span class="am-list-date">2013-11-18</span>
+                        </li>
+                    </ul>
                 </div>
-            </li>
-        </ul>
+            </div>
+        </article>
+        <!--模块分类-->
+        @*<ul data-am-widget="pagination"
+                class="am-pagination am-pagination-default am-topbar-right">
+                <li class="am-pagination-first ">
+                    <a href="#" class="">第一页</a>
+                </li>
+                <li class="am-pagination-prev ">
+                    <a href="#" class="">上一页</a>
+                </li>
+                <li class="">
+                    <a href="#" class="">1</a>
+                </li>
+                <li class="am-active">
+                    <a href="#" class="am-active">2</a>
+                </li>
+                <li class="">
+                    <a href="#" class="">3</a>
+                </li>
+                <li class="">
+                    <a href="#" class="">4</a>
+                </li>
+                <li class="">
+                    <a href="#" class="">5</a>
+                </li>
+                <li class="am-pagination-next ">
+                    <a href="#" class="">下一页</a>
+                </li>
+                <li class="am-pagination-last ">
+                    <a href="#" class="">最末页</a>
+                </li>
+            </ul>*@
     </div>
-</div>*@
-<!-- banner end -->
-    <!-- content srart -->
-    <div class="am-g am-g-fixed blog-fixed" style="min-height:700px">
-        <div class="am-panel am-panel-primary">
-            <div class="am-panel-hd">面板标题</div>
-            <div class="am-panel-bd">
-                <div data-am-widget="list_news" class="am-list-news am-list-news-default">
-                    <!--列表标题-->
-                    <div class="am-list-news-hd am-cf">
-                        <!--带更多链接-->
-                        <a href="##" class="">
-                            <h2>栏目标题</h2>
-                            <span class="am-list-news-more am-fr">更多 &raquo;</span>
-                        </a>
-                    </div>
-
-                    <div class="am-list-news-bd">
-                        <ul class="am-list">
-
-                            <li class="am-g am-list-item-dated">
-                                <a href="##" class="am-list-item-hd ">我很囧，你保重....晒晒旅行中的那些囧！</a>
-
-                                <span class="am-list-date">2013-09-18</span>
-
-
-                            </li>
-                            <li class="am-g am-list-item-dated">
-                                <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
-
-                                <span class="am-list-date">2013-10-14</span>
-
-
-                            </li>
-                            <li class="am-g am-list-item-dated">
-                                <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-
-                                <span class="am-list-date">2013-11-18</span>
-
-
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div data-am-widget="list_news" class="am-list-news am-list-news-default">
-                    <!--列表标题-->
-                    <div class="am-list-news-hd am-cf">
-                        <!--带更多链接-->
-                        <a href="##" class="">
-                            <h2>栏目标题</h2>
-                            <span class="am-list-news-more am-fr">更多 &raquo;</span>
-                        </a>
-                    </div>
-
-                    <div class="am-list-news-bd">
-                        <ul class="am-list">
-
-                            <li class="am-g am-list-item-dated">
-                                <a href="##" class="am-list-item-hd ">我很囧，你保重....晒晒旅行中的那些囧！</a>
-
-                                <span class="am-list-date">2013-09-18</span>
-
-
-                            </li>
-                            <li class="am-g am-list-item-dated">
-                                <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
-
-                                <span class="am-list-date">2013-10-14</span>
-
-
-                            </li>
-                            <li class="am-g am-list-item-dated">
-                                <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-
-                                <span class="am-list-date">2013-11-18</span>
-
-
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
+    <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-text-center blog-title"><span>About ME</span></h2>
+            <img src="~/Content/assets/i/f161.jpg" alt="about me" class="blog-entry-img">
+            <p>妹纸</p>
+            <p>
+                我是妹子UI，中国首个开源 HTML5 跨屏前端框架
+            </p><p>我不想成为一个庸俗的人。十年百年后，当我们死去，质疑我们的人同样死去，后人看到的是裹足不前、原地打转的你，还是一直奔跑、走到远方的我？</p>
+        </div>
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-text-center blog-title"><span>Contact ME</span></h2>
+            <p>
+                <a href=""><span class="am-icon-qq am-icon-fw am-primary blog-icon"></span></a>
+                <a href=""><span class="am-icon-github am-icon-fw blog-icon"></span></a>
+                <a href=""><span class="am-icon-weibo am-icon-fw blog-icon"></span></a>
+                <a href=""><span class="am-icon-reddit am-icon-fw blog-icon"></span></a>
+                <a href=""><span class="am-icon-weixin am-icon-fw blog-icon"></span></a>
+            </p>
+        </div>
+        <div class="blog-clear-margin blog-sidebar-widget blog-bor am-g ">
+            <h2 class="blog-title"><span>TAG cloud</span></h2>
+            <div class="am-u-sm-12 blog-clear-padding">
+                <a href="" class="blog-tag">amaze</a>
+                <a href="" class="blog-tag">妹纸 UI</a>
+                <a href="" class="blog-tag">HTML5</a>
+                <a href="" class="blog-tag">这是标签</a>
+                <a href="" class="blog-tag">Impossible</a>
+                <a href="" class="blog-tag">开源前端框架</a>
             </div>
         </div>
-        <ul data-am-widget="pagination"
-            class="am-pagination am-pagination-default am-topbar-right">
-
-            <li class="am-pagination-first ">
-                <a href="#" class="">第一页</a>
-            </li>
-
-            <li class="am-pagination-prev ">
-                <a href="#" class="">上一页</a>
-            </li>
-
-
-            <li class="">
-                <a href="#" class="">1</a>
-            </li>
-            <li class="am-active">
-                <a href="#" class="am-active">2</a>
-            </li>
-            <li class="">
-                <a href="#" class="">3</a>
-            </li>
-            <li class="">
-                <a href="#" class="">4</a>
-            </li>
-            <li class="">
-                <a href="#" class="">5</a>
-            </li>
-
-
-            <li class="am-pagination-next ">
-                <a href="#" class="">下一页</a>
-            </li>
-
-            <li class="am-pagination-last ">
-                <a href="#" class="">最末页</a>
-            </li>
-        </ul>
-        @*<div class="am-u-md-12 am-u-sm-12">
-            <article class="am-g blog-entry-article">
-                <div class="am-u-lg-4 am-u-md-4 am-u-sm-4 blog-entry-img">
-                    <img src="~/Content/assets/i/f10.jpg" alt="" class="am-u-sm-3">
-                </div>
-                <div class="am-u-lg-10 am-u-md-12 am-u-sm-12 blog-entry-text">
-                    <span><a href="" class="blog-color">article &nbsp;</a></span>
-                    <span> @@amazeUI &nbsp;</span>
-                    <span>2015/10/9</span>
-                    <h1><a href="">我本楚狂人，凤歌笑孔丘</a></h1>
-                    <p>
-                        我们一直在坚持着，不是为了改变这个世界，而是希望不被这个世界所改变。
-                    </p>
-                    <p><a href="" class="blog-continue">continue reading</a></p>
-                </div>
-            </article>
-            <article class="am-g blog-entry-article">
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
-                    <img src="~/Content/assets/i/f6.jpg" alt="" class="am-u-sm-12">
-                </div>
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
-                    <span><a href="" class="blog-color">article&nbsp;</a></span>
-                    <span>@@amazeUI &nbsp;</span>
-                    <span>2015/10/9</span>
-                    <h1><a href="">世间所有的相遇，都是久别重逢。</a></h1>
-                    <p>
-                        你可以选择在原处不停地跟周遭不解的人解释你为何这么做，让他们理解你，你可以选择什么都不讲，自顾自往前走。
-                    </p>
-                    <p><a href="" class="blog-continue">continue</a></p>
-                </div>
-            </article>
-            <article class="am-g blog-entry-article">
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
-                    <img src="~/Content/assets/i/f12.jpg" alt="" class="am-u-sm-12">
-                </div>
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
-                    <span><a href="" class="blog-color">article&nbsp;</a></span>
-                    <span>@@amazeUI</span>
-                    <span>2015/10/9</span>
-                    <h1><a href="">陌上花开，可缓缓归矣。</a></h1>
-                    <p>
-                        那时候刚好下着雨，柏油路面湿冷冷的，还闪烁着青、黄、红颜色的灯火。我们就在骑楼下躲雨，看绿色的邮筒孤独地站在街的对面。
-                    </p>
-                    <p><a href="" class="blog-continue">continue</a></p>
-                </div>
-            </article>
-            <article class="am-g blog-entry-article">
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
-                    <img src="~/Content/assets/i/f22.jpg" alt="" class="am-u-sm-12">
-                </div>
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
-                    <span><a href="" class="blog-color">article&nbsp;</a></span>
-                    <span>@@amazeUI</span>
-                    <span>2015/10/9</span>
-                    <h1><a href="">爱自己是终生浪漫的开始</a></h1>
-                    <p>
-                        the whole of life becomes an act of letting go, but what always hurts the most is not taking a moment to say goodbye
-                    </p>
-                    <p><a href="" class="blog-continue">continue</a></p>
-                </div>
-            </article>
-            <article class="am-g blog-entry-article">
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
-                    <img src="~/Content/assets/i/f18.jpg" alt="" class="am-u-sm-12">
-                </div>
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
-                    <span><a href="" class="blog-color">article&nbsp;</a></span>
-                    <span> @@amazeUI &nbsp;</span>
-                    <span>2015/10/9</span>
-                    <h1><a href="">My dear amazeUI, Hello </a></h1>
-                    <p>
-                        那时候刚好下着雨，柏油路面湿冷冷的，还闪烁着青、黄、红颜色的灯火。我们就在骑楼下躲雨，看绿色的邮筒孤独地站在街的对面。
-                    </p>
-                    <p><a href="" class="blog-continue">continue reading</a></p>
-                </div>
-            </article>
-            <article class="am-g blog-entry-article">
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
-                    <img src="~/Content/assets/i/f20.jpg" alt="" class="am-u-sm-12">
-                </div>
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
-                    <span><a href="" class="blog-color">article&nbsp;</a></span>
-                    <span> @@amazeUI &nbsp;</span>
-                    <span>2015/10/9</span>
-                    <h1><a href="">My way or the highway</a></h1>
-                    <p>
-                        A big wind rises， clouds are driven away. Home am Inow the world is under my sway. Where are brave men to guard the four frontiers today！
-                    </p>
-                    <p><a href="" class="blog-continue">continue reading</a></p>
-                </div>
-            </article>
-            <article class="am-g blog-entry-article">
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
-                    <img src="~/Content/assets/i/f19.jpg" alt="" class="am-u-sm-12">
-                </div>
-                <div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
-                    <span><a href="" class="blog-color">article&nbsp;</a></span>
-                    <span> @@amazeUI &nbsp;</span>
-                    <span>2015/10/9</span>
-                    <h1><a href="">一想到你，我这张丑脸上就泛起微笑</a></h1>
-                    <p>
-                        那一天我二十一岁，在我一生的黄金时代。我有好多奢望。我想爱，想吃，还想在一瞬间变成天上半明半暗的云。
-                    </p>
-                    <p><a href="" class="blog-continue">continue reading</a></p>
-                </div>
-            </article>
-        </div>*@
-    </div>
-<div class="am-list-news">
-    <div data-am-widget="tabs"
-         class="am-tabs am-tabs-d2">
-        <ul class="am-tabs-nav am-cf">
-            <li class="am-active"><a href="[data-tab-panel-0]">青春</a></li>
-            <li class=""><a href="[data-tab-panel-1]">彩虹</a></li>
-            <li class=""><a href="[data-tab-panel-2]">歌唱</a></li>
-        </ul>
-        <div class="am-tabs-bd">
-            <div data-tab-panel-0 class="am-tab-panel am-active">
-                【青春】那时候有多好，任雨打湿裙角。忍不住哼起，心爱的旋律。绿油油的树叶，自由地在说笑。燕子忙归巢，风铃在舞蹈。经过青春的草地，彩虹忽然升起。即使视线渐渐模糊，它也在我心里。就像爱过的旋律，没人能抹去。因为生命存在失望，歌唱，所以才要歌唱。
-            </div>
-            <div data-tab-panel-1 class="am-tab-panel ">
-                【彩虹】那时候有多好，任雨打湿裙角。忍不住哼起，心爱的旋律。绿油油的树叶，自由地在说笑。燕子忙归巢，风铃在舞蹈。经过青春的草地，彩虹忽然升起。即使视线渐渐模糊，它也在我心里。就像爱过的旋律，没人能抹去。因为生命存在失望，歌唱，所以才要歌唱。
-            </div>
-            <div data-tab-panel-2 class="am-tab-panel ">
-                【歌唱】那时候有多好，任雨打湿裙角。忍不住哼起，心爱的旋律。绿油油的树叶，自由地在说笑。燕子忙归巢，风铃在舞蹈。经过青春的草地，彩虹忽然升起。即使视线渐渐模糊，它也在我心里。就像爱过的旋律，没人能抹去。因为生命存在失望，歌唱，所以才要歌唱。
-            </div>
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-title"><span>么么哒</span></h2>
+            <ul class="am-list">
+                <li><a href="#">每个人都有一个死角， 自己走不出来，别人也闯不进去。</a></li>
+                <li><a href="#">我把最深沉的秘密放在那里。</a></li>
+                <li><a href="#">你不懂我，我不怪你。</a></li>
+                <li><a href="#">每个人都有一道伤口， 或深或浅，盖上布，以为不存在。</a></li>
+            </ul>
         </div>
     </div>
 </div>
-   

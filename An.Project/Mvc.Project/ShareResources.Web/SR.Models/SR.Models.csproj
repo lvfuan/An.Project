@@ -49,10 +49,13 @@
   <ItemGroup>
     <Compile Include="SRContext\ContextFactory.cs" />
     <Compile Include="TModel\BaseModel.cs" />
+    <Compile Include="TModel\BlogModel.cs" />
     <Compile Include="TModel\LanguageTypeModel.cs" />
     <Compile Include="TModel\MenuModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SRContext\SRDbContext.cs" />
+    <Compile Include="TModel\NewsModel.cs" />
+    <Compile Include="TModel\ResourcesModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Enum\" />
