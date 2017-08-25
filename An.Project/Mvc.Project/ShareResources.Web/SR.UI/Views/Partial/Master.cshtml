@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>BLOG  | Amaze UI Examples</title>
+    <title>我的第一个Web程序</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <link rel="icon" type="image/png" href="~/Content/assets/i/favicon.png">
@@ -20,58 +20,24 @@
     <meta name="msapplication-TileColor" content="#0e90d2">
     <link rel="stylesheet" href="~/Content/assets/css/amazeui.min.css">
     <link rel="stylesheet" href="~/Content/assets/css/app.css">
+    <link href="~/Content/css/master.css" rel="stylesheet" />
     <style>
-        .scrollspy-nav {
-            top: 0;
-            z-index: 100;
-            background: #0e90d2;
-            width: 100%;
-            padding: 0 10px;
-        }
-
-            .scrollspy-nav ul {
-                margin: 0;
-                padding: 0;
-            }
-
-            .scrollspy-nav li {
-                display: inline-block;
-                list-style: none;
-            }
-
-            .scrollspy-nav a {
-                color: #eee;
-                padding: 10px 20px;
-                display: inline-block;
-            }
-
-                .scrollspy-nav a.am-active {
-                    color: #fff;
-                    font-weight: bold;
-                }
-
-        .am-panel {
-            margin-top: 20px;
+        #top_content {
+            margin-top:10px;
         }
     </style>
 </head>
 <body id="blog">
-    <header class="am-topbar blog-text-center ">
+    <header class="am-topbar blog-text-center " id="top_content">
     <div class="am-u-sm-8 am-u-sm-centered">
+        @*<img width="200" src="~/Content/images/header_bg.png"  alt="Amaze UI Logo"/>*@
         <img width="200" src="http://s.amazeui.org/media/i/brand/amazeui-b.png" alt="Amaze UI Logo" />
-        <h2 class="am-hide-sm-only">中国首个开源 HTML5 跨屏前端框架</h2>
+       <h2 style="margin-top:10px">我的第一个Web程序</h2>         @* am-hide-sm-only*@
     </div>
   </header>
     <nav class="scrollspy-nav am-g am-g-fixed blog-fixed blog-nav" data-am-scrollspynav="{offsetTop: 45}" data-am-sticky>
-            @*<nav class="am-g am-g-fixed blog-fixed blog-nav">*@
-                @*<h3 class="am-icon-home am-icon-md">
-                    <a href="#"></a>
-                </h3>*@
-
-                @*<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>*@
-
                 <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
-                    <ul class="am-nav am-nav-pills am-topbar-nav">
+                    <ul class="am-nav am-nav-pills am-topbar-nav" id="master_ul">
                         <li class="am-active"><a href="@Url.Action("Index","Home")"><i class="am-icon-home am-icon-md"></i> 首页</a></li>
                         <li><a href="@Url.Action("Index","JXBW")">精选博文</a></li>
                         <li><a href="@Url.Action("Index","ZYFX")">资源分享</a></li>
@@ -131,24 +97,6 @@
             <p>京ICP备13033158</p>
         </div>
     </footer>
-
-    @*<div id="am-footer-modal"
-         class="am-modal am-modal-no-btn am-switch-mode-m am-switch-mode-m-default">
-        <div class="am-modal-dialog">
-            <div class="am-modal-hd am-modal-footer-hd">
-                <a href="javascript:void(0)" data-dismiss="modal" class="am-close am-close-spin " data-am-modal-close>&times;</a>
-            </div>
-            <div class="am-modal-bd">
-                您正在浏览的是
-                <span class="am-switch-mode-owner">
-                    云适配
-                </span>
-                <span class="am-switch-mode-slogan">
-                    为您当前手机订制的移动网站。
-                </span>
-            </div>
-        </div>
-    </div>*@
     <!--[if (gte IE 9)|!(IE)]><!-->
     <script src="~/Content/assets/js/jquery.min.js"></script>
     <!--<![endif]-->
@@ -159,5 +107,18 @@
     <![endif]-->
     <script src="~/Content/assets/js/amazeui.min.js"></script>
     <!-- <script src="Content/assets/js/app.js"></script> -->
+    <script>
+        $(function () {
+            $("#master_ul").find("li").each(function () {
+                console.log($(this).text())
+                if ($.trim($(this).text()) == "@ViewBag.Title")
+                {
+                    $(this).attr("class", "am-active");
+                } else {
+                    $(this).attr("class", "");
+                }
+            })
+        })
+    </script>
 </body>
 </html>

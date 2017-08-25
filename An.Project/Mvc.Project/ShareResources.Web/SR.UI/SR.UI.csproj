@@ -189,6 +189,9 @@
     <Content Include="Content\assets\js\pinto.min.js" />
     <Content Include="Content\css\index.css" />
     <Content Include="Content\css\layui\layui.css" />
+    <Content Include="Content\css\master.css" />
+    <Content Include="Content\images\bg_1.jpg" />
+    <Content Include="Content\images\header_bg.png" />
     <Content Include="Content\js\jquery-1.10.2.min.js" />
     <Content Include="Content\js\layui\layui.js" />
     <Content Include="Content\js\vue.min.js" />
