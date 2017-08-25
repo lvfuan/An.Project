@@ -1,137 +1,287 @@
 ﻿@{
+    ViewBag.Title = "首页";
     Layout = "~/Views/Partial/Master.cshtml";
 }
 <div class="am-g am-g-fixed blog-fixed blog-content">
     <div class="am-u-md-8 am-u-sm-12 am-panel-secondary">
-        <article class="am-article blog-article-p">
-            <!--语言分类新闻-->
-            <ul class="am-nav am-nav-tabs">
-                <li class="am-active"><a href="#">C#</a></li>
-                <li><a href="#">C</a></li>
-                <li><a href="#">C++</a></li>
-                <li><a href="#">Java</a></li>
-                <li><a href="#">PHP</a></li>
-                <li><a href="#">JavaScript</a></li>
+        <div class="am-tabs" data-am-tabs="{noSwipe: 1}" id="doc-tab-demo-1">
+            <ul class="am-tabs-nav am-nav am-nav-tabs">
+                <li class="am-active"><a href="javascript: void(0)">C#</a></li>
+                <li><a href="javascript: void(0)">C</a></li>
+                <li><a href="javascript: void(0)">C++</a></li>
+                <li><a href="javascript: void(0)">Java</a></li>
+                <li><a href="javascript: void(0)">PHP</a></li>
+                <li><a href="javascript: void(0)">JavaScript</a></li>
             </ul>
-            <div data-am-widget="list_news" class="am-list-news am-list-news-default">
-                <div class="am-list-news-hd am-cf">
-                    @*<a href="##" class="">
-                            <h2>栏目标题</h2>
-                            <span class="am-list-news-more am-fr">更多 &raquo;</span>
-                        </a> *@
-                </div>
-                <div class="am-list-news-bd">
-                    <ul class="am-list">
-                        <li class="am-g am-list-item-default">
-                            <a href="##" class="am-list-item-hd ">我很囧，你保重....晒晒旅行中的那些囧！</a>
-                            <span class="am-list-date">2013-09-18</span>
+
+            <div class="am-tabs-bd">
+                <div class="am-tab-panel am-active">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            1111111111111每个人都有一个死角， 自己走不出来，别人也闯不进去。
                         </li>
-                        <li class="am-g am-list-item-default">
-                            <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
-                            <span class="am-list-date">2013-10-14</span>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
                         </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-                            <span class="am-list-date">2013-11-18</span>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
                         </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-                            <span class="am-list-date">2013-11-18</span>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
                         </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-                            <span class="am-list-date">2013-11-18</span>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
                         </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-                            <span class="am-list-date">2013-11-18</span>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
                         </li>
                     </ul>
                 </div>
+                <div class="am-tab-panel">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            2222222222每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                    </ul>
+                </div>
+                <div class="am-tab-panel">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            33333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                    </ul>
+                </div>
+                <div class="am-tab-panel">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            4444444444每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                    </ul>
+                </div>
+                <div class="am-tab-panel">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            5555555555每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                    </ul>
+                </div>
+                <div class="am-tab-panel">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            666666666每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                    </ul>
+                </div>
+                <ul class="am-pagination am-pagination-right">
+                    <li class="am-disabled"><a href="#">&laquo;</a></li>
+                    <li class="am-active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&raquo;</a></li>
+                </ul>
             </div>
-        </article>
+
+        </div>
         <!--语言分类新闻-->
         <hr data-am-widget="divider" style="" class="am-divider am-divider-dashed" />
         <!--模块分类-->
-        <article class="am-article blog-article-p">
-            <ul class="am-nav am-nav-tabs">
-                <li class="am-active"><a href="#">精选博文</a></li>
-                <li><a href="#">今日快报</a></li>
-                <li><a href="#">资源分享</a></li>
-                <li><a href="#">求助大神</a></li>
+        <div class="am-tabs" data-am-tabs="{noSwipe: 1}" id="doc-tab-demo-1">
+            <ul class="am-tabs-nav am-nav am-nav-tabs">
+                <li class="am-active"><a href="javascript: void(0)">精选博文</a></li>
+                <li><a href="javascript: void(0)">今日快报</a></li>
+                <li><a href="javascript: void(0)">资源分享</a></li>
+                <li><a href="javascript: void(0)">求助大神</a></li>
             </ul>
-            <div data-am-widget="list_news" class="am-list-news am-list-news-default">
-                <div class="am-list-news-hd am-cf">
-                    @*<a href="##" class="">
-                        <h2>栏目标题</h2>
-                         <span class="am-list-news-more am-fr">更多 &raquo;</span>
-                         </a>   *@
-                </div>
-                <div class="am-list-news-bd">
-                    <ul class="am-list">
-                        <li class="am-g am-list-item-default">
-                            <a href="##" class="am-list-item-hd ">我很囧，你保重....晒晒旅行中的那些囧！</a>
-                            <span class="am-list-date">2013-09-18</span>
+
+            <div class="am-tabs-bd">
+                <div class="am-tab-panel am-active">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            1111111每个人都有一个死角， 自己走不出来，别人也闯不进去。
                         </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">我最喜欢的一张画</a>
-                            <span class="am-list-date">2013-10-14</span>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
                         </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-                            <span class="am-list-date">2013-11-18</span>
-                        </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-                            <span class="am-list-date">2013-11-18</span>
-                        </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-                            <span class="am-list-date">2013-11-18</span>
-                        </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-                            <span class="am-list-date">2013-11-18</span>
-                        </li>
-                        <li class="am-g am-list-item-dated">
-                            <a href="##" class="am-list-item-hd ">“你的旅行，是什么颜色？” 晒照片，换北欧梦幻极光之旅！</a>
-                            <span class="am-list-date">2013-11-18</span>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
                         </li>
                     </ul>
                 </div>
+                <div class="am-tab-panel">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            2222222每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                    </ul>
+                </div>
+                <div class="am-tab-panel">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                    </ul>
+                </div>
+                <div class="am-tab-panel">
+                    <ul class="am-list am-list-static">
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            4444444每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                        <li>
+                            <span class="am-badge am-badge-success">YES</span> <span class="am-badge am-badge-danger">2015-04-11</span>
+                            333333每个人都有一个死角， 自己走不出来，别人也闯不进去。
+                        </li>
+                    </ul>
+                </div>
+                <ul class="am-pagination am-pagination-right">
+                    <li class="am-disabled"><a href="#">&laquo;</a></li>
+                    <li class="am-active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&raquo;</a></li>
+                </ul>
             </div>
-        </article>
-        <!--模块分类-->
-        @*<ul data-am-widget="pagination"
-                class="am-pagination am-pagination-default am-topbar-right">
-                <li class="am-pagination-first ">
-                    <a href="#" class="">第一页</a>
-                </li>
-                <li class="am-pagination-prev ">
-                    <a href="#" class="">上一页</a>
-                </li>
-                <li class="">
-                    <a href="#" class="">1</a>
-                </li>
-                <li class="am-active">
-                    <a href="#" class="am-active">2</a>
-                </li>
-                <li class="">
-                    <a href="#" class="">3</a>
-                </li>
-                <li class="">
-                    <a href="#" class="">4</a>
-                </li>
-                <li class="">
-                    <a href="#" class="">5</a>
-                </li>
-                <li class="am-pagination-next ">
-                    <a href="#" class="">下一页</a>
-                </li>
-                <li class="am-pagination-last ">
-                    <a href="#" class="">最末页</a>
-                </li>
-            </ul>*@
+        </div>
     </div>
     <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
         <div class="blog-sidebar-widget blog-bor">
@@ -174,3 +324,17 @@
         </div>
     </div>
 </div>
+<script>
+    function ck_new(controller) {
+        $("#ul_new").find("li").each(function () {
+            console.log($(this).attr("class") + "==" + $(controller).attr("class"))
+            if ($(this) == $(controller)) {
+
+                $(this).attr("class", "am-active");
+            } else {
+                $(this).attr("class", "");
+            }
+        })
+    }
+
+</script>
