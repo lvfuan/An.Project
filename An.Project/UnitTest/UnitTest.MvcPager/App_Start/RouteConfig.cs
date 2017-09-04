@@ -16,8 +16,9 @@ namespace UnitTest.MvcPager
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                 //defaults: new { controller="Home",action = "Index", id = UrlParameter.Optional }
-                 defaults: new { controller = "VuePager", action = "Index", id = UrlParameter.Optional }
+                 //defaults: new { controller="Home",action = "Index", id = UrlParameter.Optional } 
+                 //defaults: new { controller = "VuePager", action = "Index", id = UrlParameter.Optional }
+                   defaults: new { controller = "PageToken", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

@@ -162,6 +162,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\RoutePager\Index.cshtml" />
+    <Content Include="Views\PageToken\Index.cshtml" />
+    <Content Include="Views\Shared\_ViewToken.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -200,6 +202,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AjaxPagerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PageTokenController.cs" />
     <Compile Include="Controllers\RoutePagerController.cs" />
     <Compile Include="Controllers\VuePagerController.cs" />
     <Compile Include="Global.asax.cs">
@@ -207,6 +210,12 @@
     </Compile>
     <Compile Include="Models\InitPagerDate.cs" />
     <Compile Include="Models\PagerDemo.cs" />
+    <Compile Include="Models\Token\CustomHtmlHelper.cs" />
+    <Compile Include="Models\Token\IPageTokenView.cs" />
+    <Compile Include="Models\Token\PageTokenViewBase.cs" />
+    <Compile Include="Models\Token\SessionPageTokenView.cs" />
+    <Compile Include="Models\Token\Utility.cs" />
+    <Compile Include="Models\Token\ValidateReHttpPostTokenAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

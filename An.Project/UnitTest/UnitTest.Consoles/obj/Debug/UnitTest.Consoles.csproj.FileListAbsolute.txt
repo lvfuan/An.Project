@@ -1,0 +1,16 @@
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\UnitTest.Consoles.exe.config
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\UnitTest.Consoles.exe
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\UnitTest.Consoles.pdb
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\Newtonsoft.Json.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\obj\Debug\UnitTest.Consoles.csprojResolveAssemblyReference.cache
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\obj\Debug\UnitTest.Consoles.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\obj\Debug\UnitTest.Consoles.exe
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\obj\Debug\UnitTest.Consoles.pdb
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\Helper.Common.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\NPOI.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\NPOI.OOXML.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\NPOI.OpenXmlFormats.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\NPOI.OpenXml4Net.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\Helper.Common.pdb
+G:\An.Project\An.Project\UnitTest\UnitTest.Consoles\bin\Debug\NPOI.xml

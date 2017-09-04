@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @*<form method="post" id="form1" action="@Url.Action("Index")">
+        <p>
+            @Html.Partial("_ViewToken")
+            UserName:<input type="text" id="fusername" name="fusername" /><br />
+            Password:<input type="password" id="fpassword" name="fpassword" />
+            <input type="submit" value="from提交" />
+        </p>
+    </form>*@
+    <form>
+        <p>
+            @Html.Partial("_ViewToken")
+            UserName:<input type="text" id="fusername" name="fusername" /><br />
+            Password:<input type="password" id="fpassword" name="fpassword" />
+            <input type="button" value="post提交" id="btn" />
+        </p>
+    </form>
+    <script src="~/js/jquery-1.10.2.min.js"></script>
+    <script>
+        $(function () {
+       $("#btn").on('click', function () {
+            alert(123)
+            $.ajax({
+                type: 'post',
+                url: '@Url.Action("PostToken")',
+                data: { id: $("#fusername").val(), pwd: $("#fpassword").val(), hiddenToken: $("#hiddenToken").val() },
+                success: function (res) {
+                    console.log(res);
+                }
+            })
+        })
+        })
+
+    </script>
+</body>
+</html>

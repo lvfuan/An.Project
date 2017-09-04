@@ -10,7 +10,7 @@ namespace UnitTest.MvcPager.Controllers
 {
     public class VuePagerController : Controller
     {
-        // GET: VuePager
+        // vue分页
         public ActionResult Index(int pageIndex = 1, int pageSize = 10)
         {
             var list = new InitPagerDate().GetPagerDate;
