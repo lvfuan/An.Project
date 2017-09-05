@@ -1,0 +1,16 @@
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\obj\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.csproj.CoreCompileInputs.cache
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\obj\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.AssemblyInfoInputs.cache
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\obj\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.AssemblyInfo.cs
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\obj\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\obj\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.pdb
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\obj\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.csprojResolveAssemblyReference.cache
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\UnitTest.AspNetCoreDemo.deps.json
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\UnitTest.AspNetCoreDemo.runtimeconfig.json
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\UnitTest.AspNetCoreDemo.runtimeconfig.dev.json
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\UnitTest.AspNetCoreDemo.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\UnitTest.AspNetCoreDemo.pdb
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.deps.json
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.runtimeconfig.json
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.runtimeconfig.dev.json
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.dll
+G:\An.Project\An.Project\UnitTest\UnitTest.AspNetCoreDemo\bin\Debug\netcoreapp2.0\UnitTest.AspNetCoreDemo.pdb

@@ -1,0 +1,42 @@
+﻿@model BlogModel
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="text-danger"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="text-danger"></label>
+                <input asp-for="Content" class="form-control" />
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreateTime" class="text-danger"></label>
+                <input asp-for="CreateTime" class="form-control" />
+                <span asp-validation-for="CreateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreateUser" class="text-danger"></label>
+                <input asp-for="CreateUser" class="form-control" />
+                <span asp-validation-for="CreateUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="text-danger"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <a asp-action="Index">Back To Index</a>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="提交" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>

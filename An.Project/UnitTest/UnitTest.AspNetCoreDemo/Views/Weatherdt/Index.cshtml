@@ -1,0 +1,71 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetWeather</title>
+    <style>
+         div {
+            clear: both;
+            width: 80px;
+            height: 35px;
+            line-height: 35px;
+            color: #b200ff;
+            font-family: 'Microsoft YaHei';
+            text-align: right;
+            float: left;
+        }
+
+        .divContainer {
+            width: 600px;
+            height: 35px;
+            line-height: 35px;
+        }
+    </style>
+</head>
+<body>
+    @using (Html.BeginForm("Get", "Weatherdt",FormMethod.Post))
+    {
+        <span>城市名(支持地级市、直辖市，暂不支持县级市，区等)：</span> 
+        <input type="text" name="txtCityName" value=" " />
+        <input type="submit" name="name" value="确定" /><br />
+        if (ViewData.Model != null)
+        {
+            <div class="divContainer">
+                <div>城市名：</div>
+                <label>@ViewData.Model[0]</label><span>--</span><label>@ViewData.Model[1]</label>
+            </div>
+            <div class="divContainer">
+                <div>今日天气：</div>
+                <label>@ViewData.Model[6]</label>
+                <img src='/Images/@ViewData.Model[8]' alt="Alternate Text" />
+                <img src='/Images/@ViewData.Model[9]' alt="Alternate Text" />
+
+                <label>@ViewData.Model[5]</label>
+                <label>@ViewData.Model[7]</label>
+            </div>
+
+
+
+            <div class="divContainer">
+                <div>查询时间：</div>
+                <label>@ViewData.Model[4]</label>
+            </div>
+
+            <div class="divContainer">
+                <div>明日预报：</div>
+                <label>@ViewData.Model[13]</label>
+                <img src='/Images/@ViewData.Model[15]' alt="Alternate Text" />
+                <img src='/Images/@ViewData.Model[16]' alt="Alternate Text" />
+
+                <label>@ViewData.Model[12]</label>
+                <label>@ViewData.Model[14]</label>
+            </div>
+        }
+    }
+
+</body>
+</html>  
