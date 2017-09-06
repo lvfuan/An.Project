@@ -46,7 +46,7 @@ namespace UnitTest.AspNetCoreDemo
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Weatherdt}/{action=Index}/{id?}");
+                    template: "{controller=MapSite}/{action=Index}/{id?}");
             });
         }
     }

@@ -7,24 +7,46 @@ using System.Text;
 using System.Threading.Tasks;
 using Helper.Common;
 using System.Data;
+using System.Threading;
 
 namespace UnitTest.Consoles
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            DataTable dt = new DataTable();
-            dt.Columns.Add("t1");
-            dt.Columns.Add("t2");
-            dt.Columns.Add("t3");
-            dt.Columns.Add("t4");
-            dt.Columns.Add("t5");
+            {
+                Action act = () => { Project.Get("结束");/*异步任务*/ };
+                act.BeginInvoke((x)=> { Project.Show(); }/*异步任务结束执行的任务*/,null/*返回值*/);
+                Console.WriteLine("线程2");//异步不会阻塞
+            }
+
+            {
+                //DataTable dt = new DataTable();
+                //dt.Columns.Add("t1");
+                //dt.Columns.Add("t2");
+                //dt.Columns.Add("t3");
+                //dt.Columns.Add("t4");
+                //dt.Columns.Add("t5");
+            }
             Console.ReadKey();
         }
     }
     public class Project
     {
+        public static void Get(object num)
+        {
+            Console.WriteLine("开始");
+            for (int i = 0; i < 5; i++)
+            {
+                Thread.Sleep(1000);
+            }
+            Console.WriteLine(num);
+        }
+        public static void Show()
+        {
+            Console.WriteLine("Hello World");
+        }
         public string Project_Name { get; set; }
         public string Project_Code { get; set; }
         public string Stimulus_Type_code { get; set; }
